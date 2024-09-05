@@ -15,3 +15,7 @@
 3.	**Certificates of Completion:**
     * **Customizable Certificates:** Design and issue certificates based on course completion.
     * **Digital Badges:** Option to award badges for achievements or milestones.
+
+4. **Multi-Language Support:**
+    * **Localization:** Provide content in multiple languages.
+    * **Translation Tools:** Support for translating course materials and user interfaces.
