@@ -6,3 +6,4 @@
     * **Instructor Dashboard:** Tools for creating, editing, and managing courses, including modules, lessons, and multimedia content.
     * **Course Templates:** Predefined templates to streamline course creation.
     * **Content Management:** Upload and organize video lectures, documents, and other resources.
+      
