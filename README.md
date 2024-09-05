@@ -19,3 +19,7 @@
 4. **Multi-Language Support:**
     * **Localization:** Provide content in multiple languages.
     * **Translation Tools:** Support for translating course materials and user interfaces.
+
+5. **Course Catalog and Search:**
+    * **Search Functionality:** Users can search for courses based on keywords, categories, or instructors.
+    * **Filters:** Options to sort by difficulty, duration, ratings, or language.
