@@ -11,3 +11,7 @@
     * **Quiz Builder:** Create multiple-choice, true/false, and other types of questions.
     * **Automated Grading:** Instant feedback and grading for quizzes.
     * **Analytics:** Track quiz performance and identify areas where students may need additional help.
+
+3.	**Certificates of Completion:**
+    * **Customizable Certificates:** Design and issue certificates based on course completion.
+    * **Digital Badges:** Option to award badges for achievements or milestones.
