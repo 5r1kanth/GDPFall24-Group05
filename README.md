@@ -32,4 +32,9 @@
 7. **Scalability and Performance:** 
 **Load Balancing:** Ensure the platform can handle high traffic volumes. 
 **Scalable Infrastructure:** Use cloud services to dynamically scale resources as needed.
+
+8. **Video Streaming and Downloadable Content:** 
+**High-Quality Streaming**: Support for various resolutions and adaptive bitrate streaming. 
+**Download Options**: Allow students to download course materials for offline access. 
+**CDN Integration**: Use Content Delivery Networks to ensure smooth video playback.
    
