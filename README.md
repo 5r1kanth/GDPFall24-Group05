@@ -37,4 +37,10 @@
 **High-Quality Streaming**: Support for various resolutions and adaptive bitrate streaming. 
 **Download Options**: Allow students to download course materials for offline access. 
 **CDN Integration**: Use Content Delivery Networks to ensure smooth video playback.
+
+9.  **Role-Based Access Control:**
+    * **Instructor Roles:** Permissions for creating and managing courses, viewing analytics, etc.
+    * **Student Roles:** Access to course materials, quizzes, and certificates.
+    * **Admin Roles:** Oversight and management of users, content, and platform settings.
+
    
