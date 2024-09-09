@@ -16,6 +16,19 @@
     * **Customizable Certificates:** Design and issue certificates based on course completion.
     * **Digital Badges:** Option to award badges for achievements or milestones.
 
+       **Customizable Certificates:**
+         * **Template Options:** Offer different certificate designs that can be adjusted to fit various themes or branding.
+         * **Personalization:** Let you add the participant’s name, course details, completion date, and any signatures or logos.
+         * **Aesthetic Elements:** Use borders, backgrounds, and fonts that match your brand or the course style.
+   
+       **Issuance:**
+         * **Automatic Generation:** Set up a system to create certificates automatically when someone finishes a course.
+         * **Manual Issuance:** Allow instructors or admins to manually issue certificates if needed.
+   
+       **Format:**
+         * **Digital Format:** Provide certificates as PDFs, which are easy to share and print.
+         * **Print Option:** Make sure the design is high quality for those who want to print it.
+
 4. **Multi-Language Support:**
     * **Localization:** Provide content in multiple languages.
     * **Translation Tools:** Support for translating course materials and user interfaces.
