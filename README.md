@@ -36,6 +36,12 @@
 5. **Course Catalog and Search:**
     * **Search Functionality:** Users can search for courses based on keywords, categories, or instructors.
     * **Filters:** Options to sort by difficulty, duration, ratings, or language.
+      
+       **Search Functionality:**
+        * **Keyword Search:** Implement a search bar where users can enter keywords. This should search through course titles, descriptions.
+        * **Category Search:** Allow users to filter courses by categories. 
+        * **Instructor Search:** Enable users to search for courses taught by instructors.
+
 
 6. **Progress Tracking and User Interface:**
     * **Progress Bar:** Visual representation of course progress.
