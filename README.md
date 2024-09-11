@@ -49,6 +49,13 @@
         * **Category Search:** Allow users to filter courses by categories. 
         * **Instructor Search:** Enable users to search for courses taught by instructors.
 
+       **Filters:**
+        * **Difficulty Level:** Add a filter option for sorting courses by difficulty (e.g., beginner, intermediate, advanced).
+        * **Duration:** Allow users to filter by course length (e.g., under 1 hour, 1-2 hours, 3+ hours).
+        * **Ratings:** Implement a filter for user ratings. 
+        * **Language:** Provide an option to filter courses by language.
+
+
 
 6. **Progress Tracking and User Interface:**
     * **Progress Bar:** Visual representation of course progress.
