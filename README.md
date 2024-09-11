@@ -11,6 +11,12 @@
     * **Quiz Builder:** Create multiple-choice, true/false, and other types of questions.
     * **Automated Grading:** Instant feedback and grading for quizzes.
     * **Analytics:** Track quiz performance and identify areas where students may need additional help.
+  
+        **Efficient Automated Grading System**
+        * **Real-Time Feedback:** Implement a system that provides immediate feedback after quiz submission, highlighting correct and incorrect answers with explanations when applicable.
+        * **Customizable Scoring:** Allow educators to set custom scoring rules, such as partial credit for partially correct answers or penalties for incorrect answers, and include 
+          options for varying the difficulty level of questions.
+        * **Error Handling:** Include features to handle errors or inconsistencies, such as detecting and correcting typographical errors or ambiguous questions.
 
 3.	**Certificates of Completion:**
     * **Customizable Certificates:** Design and issue certificates based on course completion.
