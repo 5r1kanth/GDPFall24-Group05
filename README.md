@@ -51,6 +51,7 @@
     * **Localization:** Provide content in multiple languages.
     * **Translation Tools:** Support for translating course materials and user interfaces.
     * **Language-Specific Feedback Mechanisms:** Developing a system that offers personal feedback in the users preferred language.
+    * **Font-Styles:** Applying different font styles to the subtitles in the video.
 
 5. **Course Catalog and Search:**
     * **Search Functionality:** Users can search for courses based on keywords, categories, or instructors.
