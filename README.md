@@ -6,6 +6,18 @@
     * **Instructor Dashboard:** Tools for creating, editing, and managing courses, including modules, lessons, and multimedia content.
     * **Course Templates:** Predefined templates to streamline course creation.
     * **Content Management:** Upload and organize video lectures, documents, and other resources.
+  
+    **Instructor Dashboard**
+
+     * **Comprehensive Toolset:** Equip the dashboard with a suite of tools for creating and editing courses. This should include features for designing course structures (modules, lessons), adding and arranging content, and 
+                                  setting up assessments.
+     * **Intuitive Interface:** Ensure the dashboard has an intuitive and user-friendly interface, with drag-and-drop functionality for easy rearrangement of course elements and seamless navigation between different course 
+                               components.
+     * **Analytics and Monitoring:** Integrate analytics tools to help instructors track course performance, student progress, and engagement metrics. Provide insights into which sections are most or least effective, and offer 
+                                     data-driven recommendations for improvement.
+      * **Communication Tools:** Include features for instructor-student communication, such as discussion boards, messaging systems, and announcement tools, to facilitate interaction and feedback.
+ 
+      
       
 2. **Quizzes and Automated Grading:**
     * **Quiz Builder:** Create multiple-choice, true/false, and other types of questions.
@@ -85,3 +97,4 @@
  10. **Multi-Language Support:**
       * **Text Generator:** Providing the text(sub-titles) for the audio in different styles and colours.
       * **Translation Tools:** Support for translating the text(sub-titles) in different languages.
+ 
