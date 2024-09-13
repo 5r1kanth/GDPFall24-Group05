@@ -55,10 +55,6 @@
       **Issuance and Management:**
         * **Automatic Awarding:** Set up rules to automatically give badges when certain milestones are reached.
         * **Manual Awarding:** Let instructors give badges manually for outstanding achievements.
-          
-      **Integration and Sharing:**
-        * **Digital Platforms:** Make sure badges work with platforms like Badgr or Credly so people can share them on LinkedIn or other social media.
-        * **Verification:** Add a link for verifying the badge's authenticity.
 
       **Tracking and Analytics:**
         * **Progress Tracking:** Keep track of who has received badges and their progress.
