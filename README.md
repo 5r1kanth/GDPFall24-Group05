@@ -29,6 +29,9 @@
         * **Customizable Scoring:** Allow educators to set custom scoring rules, such as partial credit for partially correct answers or penalties for incorrect answers, and include 
           options for varying the difficulty level of questions.
         * **Error Handling:** Include features to handle errors or inconsistencies, such as detecting and correcting typographical errors or ambiguous questions.
+        * **Quiz Builder Flexibility:** Allow for multiple question types: multiple-choice, true/false, fill-in-the-blank, matching, and short answers. Teachers should be able to easily 
+          create and customize quizzes.
+        * **Timed Quizzes:** Allow the creation of timed quizzes to simulate real exam scenarios. Include visible timers that count down during the quiz.
 
 3.	**Certificates of Completion:**
     * **Customizable Certificates:** Design and issue certificates based on course completion.
