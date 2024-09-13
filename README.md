@@ -109,6 +109,10 @@
     * **Student Roles:** Access to course materials, quizzes, and certificates.
     * **Admin Roles:** Oversight and management of users, content, and platform settings.
 
+      **Instructor Role:**
+       * **Permissions:** Create and manage courses, view analytics, grade assignments, and interact with students.
+
+
  10. **Multi-Language Support:**
       * **Text Generator:** Providing the text(sub-titles) for the audio in different styles and colours.
       * **Translation Tools:** Support for translating the text(sub-titles) in different languages.
