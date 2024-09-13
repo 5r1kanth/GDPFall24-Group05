@@ -32,9 +32,8 @@
 
 3.	**Certificates of Completion:**
     * **Customizable Certificates:** Design and issue certificates based on course completion.
-    * **Digital Badges:** Option to award badges for achievements or milestones.
 
-       **Customizable Certificates:**
+      **Design and Creation:**
          * **Template Options:** Offer different certificate designs that can be adjusted to fit various themes or branding.
          * **Personalization:** Let you add the participant’s name, course details, completion date, and any signatures or logos.
          * **Aesthetic Elements:** Use borders, backgrounds, and fonts that match your brand or the course style.
@@ -46,6 +45,25 @@
        **Format:**
          * **Digital Format:** Provide certificates as PDFs, which are easy to share and print.
          * **Print Option:** Make sure the design is high quality for those who want to print it.
+
+    * **Digital Badges:** Option to award badges for achievements or milestones.
+
+      **Design and Creation:**
+        * **Badge Design:** Create badges that show specific achievements using design tools or badge-making platforms.
+        * **Metadata:** Add details to badges about what they mean and what’s needed to earn them.
+          
+      **Issuance and Management:**
+        * **Automatic Awarding:** Set up rules to automatically give badges when certain milestones are reached.
+        * **Manual Awarding:** Let instructors give badges manually for outstanding achievements.
+          
+      **Integration and Sharing:**
+        * **Digital Platforms:** Make sure badges work with platforms like Badgr or Credly so people can share them on LinkedIn or other social media.
+        * **Verification:** Add a link for verifying the badge's authenticity.
+
+      **Tracking and Analytics:**
+        * **Progress Tracking:** Keep track of who has received badges and their progress.
+        * **Feedback Collection:** Get feedback on how useful and motivating the badges are.
+
 
 4. **Multi-Language Support:**
     * **Localization:** Provide content in multiple languages.
