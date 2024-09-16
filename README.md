@@ -10,11 +10,11 @@
     **Instructor Dashboard**
 
      * **Comprehensive Toolset:** Equip the dashboard with a suite of tools for creating and editing courses. This should include features for designing course structures (modules, lessons), adding and arranging content, and 
-                                  setting up assessments.
+         setting up assessments.
      * **Intuitive Interface:** Ensure the dashboard has an intuitive and user-friendly interface, with drag-and-drop functionality for easy rearrangement of course elements and seamless navigation between different course 
-                               components.
+         components.
      * **Analytics and Monitoring:** Integrate analytics tools to help instructors track course performance, student progress, and engagement metrics. Provide insights into which sections are most or least effective, and offer 
-                                     data-driven recommendations for improvement.
+         data-driven recommendations for improvement.
       * **Communication Tools:** Include features for instructor-student communication, such as discussion boards, messaging systems, and announcement tools, to facilitate interaction and feedback.
       * **Notification Center:** Alerts and Reminders: Automated notifications for course deadlines, student interactions,  Direct communication with students and other instructors and system updates.
       * **User Management**:Enrollment Tracking: Manage student enrollment status, attendance, and progress.
@@ -111,9 +111,9 @@
     *  **Microservices Architecture:** Break the application into smaller, independent services that can be scaled individually, enabling each service to scale according to its own demand.
 
 8. **Video Streaming and Downloadable Content:** 
-**High-Quality Streaming**: Support for various resolutions and adaptive bitrate streaming. 
-**Download Options**: Allow students to download course materials for offline access. 
-**CDN Integration**: Use Content Delivery Networks to ensure smooth video playback.
+   * **High-Quality Streaming**: Support for various resolutions and adaptive bitrate streaming. 
+   * **Download Options**: Allow students to download course materials for offline access. 
+   * **CDN Integration**: Use Content Delivery Networks to ensure smooth video playback.
 
 9.  **Role-Based Access Control:**
     * **Instructor Roles:** Permissions for creating and managing courses, viewing analytics, etc.
