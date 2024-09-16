@@ -133,4 +133,9 @@
  10. **Multi-Language Support:**
       * **Text Generator:** Providing the text(sub-titles) for the audio in different styles and colours.
       * **Translation Tools:** Support for translating the text(sub-titles) in different languages.
+    
+11. **Video Player Features:**
+      * **Speed Control:** Allow users to adjust playback speed.
+      * **Subtitles:** Support for multiple subtitle tracks.
+
  
