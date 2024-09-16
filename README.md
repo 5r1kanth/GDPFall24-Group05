@@ -114,6 +114,9 @@
    * **High-Quality Streaming**: Support for various resolutions and adaptive bitrate streaming. 
    * **Download Options**: Allow students to download course materials for offline access. 
    * **CDN Integration**: Use Content Delivery Networks to ensure smooth video playback.
+   *  **High-Quality Video Encoding:** Ensure that videos are encoded in multiple resolutions (480p, 720p, 1080p, etc.) to cater to different devices and internet speeds.
+   *  **Video Player Customization:** Include features like playback speed control, captions, a full-screen mode, volume adjustment, and video scrubbing (allowing users to jump to specific sections).
+   *  **Subtitle Support:** Offer subtitles and closed captions for videos to make content accessible to non-native speakers and users with hearing impairments.
 
 9.  **Role-Based Access Control:**
     * **Instructor Roles:** Permissions for creating and managing courses, viewing analytics, etc.
