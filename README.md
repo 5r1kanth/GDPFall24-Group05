@@ -125,6 +125,8 @@
 
       **Instructor Role:**
        * **Permissions:** Create and manage courses, view analytics, grade assignments, and interact with students.
+      **Student Role:**
+       * **Permissions:** Access course materials, take tests, view and download certificates.
 
 
  10. **Multi-Language Support:**
