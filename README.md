@@ -19,11 +19,7 @@
       * **Notification Center:** Alerts and Reminders: Automated notifications for course deadlines, student interactions,  Direct communication with students and other instructors and system updates.
       * **User Management**:Enrollment Tracking: Manage student enrollment status, attendance, and progress.
 
-
-`
-        
  
-      
       
 2. **Quizzes and Automated Grading:**
     * **Quiz Builder:** Create multiple-choice, true/false, and other types of questions.
@@ -108,8 +104,11 @@
       * **Achievements:** Display earned certificates and badges, plus any other achievements.
   
 7. **Scalability and Performance:** 
-**Load Balancing:** Ensure the platform can handle high traffic volumes. 
-**Scalable Infrastructure:** Use cloud services to dynamically scale resources as needed.
+    *  **Load Balancing:** Ensure the platform can handle high traffic volumes. 
+    *  **Scalable Infrastructure:** Use cloud services to dynamically scale resources as needed.
+    *  **API Rate Limiting** Apply rate limiting to your API to control the number of requests a user can make in a certain time frame, preventing overload.
+    *  **Horizontal Scaling over Vertical Scaling:** Focus on scaling horizontally (adding more servers) rather than vertically (upgrading the same server) to handle increasing traffic.
+    *  **Microservices Architecture:** Break the application into smaller, independent services that can be scaled individually, enabling each service to scale according to its own demand.
 
 8. **Video Streaming and Downloadable Content:** 
 **High-Quality Streaming**: Support for various resolutions and adaptive bitrate streaming. 
