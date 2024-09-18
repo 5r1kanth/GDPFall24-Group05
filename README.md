@@ -129,7 +129,8 @@
 
       **Instructor Role:**
        * **Permissions:** Create and manage courses, view analytics, grade assignments, and interact with students.
-         
+       * **User Interface Elements:** Dashboards for course management, analytics, grading, and messaging.
+
       **Student Role:**
        * **Permissions:** Access course materials, take tests, view and download certificates.
 
