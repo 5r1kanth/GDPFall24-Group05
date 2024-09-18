@@ -109,6 +109,10 @@
     *  **API Rate Limiting** Apply rate limiting to your API to control the number of requests a user can make in a certain time frame, preventing overload.
     *  **Horizontal Scaling over Vertical Scaling:** Focus on scaling horizontally (adding more servers) rather than vertically (upgrading the same server) to handle increasing traffic.
     *  **Microservices Architecture:** Break the application into smaller, independent services that can be scaled individually, enabling each service to scale according to its own demand.
+    *  **Efficient Database Indexing:** Ensure efficient database indexing strategies are in place to speed up query execution times, especially as the data grows.
+    *  **Multi-Tenancy Support:** Design the platform to support multi-tenancy, allowing the same infrastructure to serve multiple clients or institutions efficiently while isolating 
+         their data.
+    
 
 8. **Video Streaming and Downloadable Content:** 
    * **High-Quality Streaming**: Support for various resolutions and adaptive bitrate streaming. 
