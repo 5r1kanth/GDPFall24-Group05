@@ -71,6 +71,8 @@
     * **Translation Tools:** Support for translating course materials and user interfaces.
     * **Language-Specific Feedback Mechanisms:** Developing a system that offers personal feedback in the users preferred language.
     * **Font-Styles:** Applying different font styles to the subtitles in the video.
+    * **Language Management:** Allows the instructor to create and manage the videos in different languages.
+    * **Content Switching:** Allows the user to switch the languages without loosing any progress.
       
       **Fallback Mechanism:**
        * **Default Language Fallback:** Allow the user to use the content in the default language when user's preferred language is not available.
