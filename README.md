@@ -121,6 +121,9 @@
    *  **High-Quality Video Encoding:** Ensure that videos are encoded in multiple resolutions (480p, 720p, 1080p, etc.) to cater to different devices and internet speeds.
    *  **Video Player Customization:** Include features like playback speed control, captions, a full-screen mode, volume adjustment, and video scrubbing (allowing users to jump to specific sections).
    *  **Subtitle Support:** Offer subtitles and closed captions for videos to make content accessible to non-native speakers and users with hearing impairments.
+   *  **Offline Viewing via App:** If you have a mobile app, offer an offline viewing mode that allows students to download and access videos even without internet access.
+   *  **Video Search & Bookmarking:** Provide a search feature within videos for users to quickly find specific topics or sections. Allow them to bookmark or annotate important sections for later review.
+
 
 9.  **Role-Based Access Control:**
     * **Instructor Roles:** Permissions for creating and managing courses, viewing analytics, etc.
