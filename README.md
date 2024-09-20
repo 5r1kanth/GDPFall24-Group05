@@ -157,4 +157,15 @@
 12. **Documentation:**
       * **Investigation Requirements Engineering:** Changing the Investigation Requirements Engineering documentation about functional requirements and non-functional requirements by using the changes mentioned by the client.
 
- 
+ ## Key Elements of a Student Login Page for an Online Learning Platform
+   * **Logo:** Displays the platform’s branding for recognition and trust.
+   * **Page Title:** Clearly indicates the purpose of the page (e.g., "Login to Your Account").
+   * **Email Input Field:** Where users enter their registered email address.
+   * **Password Input Field:** Where users enter their password for account access.
+   * **Password Visibility Toggle:** Allows users to view or hide their password as they type.
+   * **Login Button:** Prominent button for submitting login credentials.
+   * **Forgot Password Link:** Directs users to reset their password if forgotten.
+   * **Sign-Up Link:** Provides a pathway for new users to create an account.
+   * **Error Messages:** Displays real-time feedback for any input errors.
+   * **Privacy Policy Link:** Connects to the platform's privacy policy for user assurance.
+   * **Terms of Service Link:** Links to the terms governing the use of the platform.
