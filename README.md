@@ -136,13 +136,15 @@
        * **Permissions:** Create and manage courses, view analytics, grade assignments, and interact with students.
        * **User Interface Elements:** Dashboards for course management, analytics, grading, and messaging.
 
-      **Student Role**
-      * **Permissions**
+      **Student Role:**
+      * **Permissions:**
         * Access Course Materials: View videos, readings, and assignments.
         * Take Quizzes and Exams: Participate in assessments with timed tests and instant feedback.
         * View Grades and Feedback: Check grades and read instructor feedback on assignments.
         * Download Certificates: Obtain completion certificates in various formats.
 
+      **Admin Role:**
+      * **Permissions:** Manage users, manage content, adjust settings, and monitor platform activity.
 
  10. **Multi-Language Support:**
       * **Text Generator:** Providing the text(sub-titles) for the audio in different styles and colours.
