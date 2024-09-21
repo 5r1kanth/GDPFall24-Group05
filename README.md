@@ -156,6 +156,7 @@
 
 ## Documentation:
   * **Investigation Requirements Engineering:** Changing the Investigation Requirements Engineering documentation about functional requirements and non-functional requirements by using the changes mentioned by the client.
+  * **List of Proposed Prototypes:** Updated the list of proposed prototypes by adding User Login and Registration Interface, Course Creation Dashboard and Course Catalog Page for the course learning platform.
  
 
  ## Key Elements of a Student Login Page for an Online Learning Platform
