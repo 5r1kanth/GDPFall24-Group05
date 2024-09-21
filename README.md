@@ -112,8 +112,12 @@
     *  **Horizontal Scaling over Vertical Scaling:** Focus on scaling horizontally (adding more servers) rather than vertically (upgrading the same server) to handle increasing traffic.
     *  **Microservices Architecture:** Break the application into smaller, independent services that can be scaled individually, enabling each service to scale according to its own demand.
     *  **Efficient Database Indexing:** Ensure efficient database indexing strategies are in place to speed up query execution times, especially as the data grows.
+    *  **Caching:** Implement caching mechanisms (e.g., Redis, Memcached) to store frequently accessed data in memory, reducing database load and speeding up response times.
+    *  **Lazy Loading:** Implement lazy loading for non-critical content, such as images or additional scripts, so that the initial page loads faster and only required resources are 
+         loaded first.
     *  **Multi-Tenancy Support:** Design the platform to support multi-tenancy, allowing the same infrastructure to serve multiple clients or institutions efficiently while isolating 
          their data.
+       
     
 
 8. **Video Streaming and Downloadable Content:** 
