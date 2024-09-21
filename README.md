@@ -154,8 +154,9 @@
       * **Speed Control:** Allow users to adjust playback speed.
       * **Subtitles:** Support for multiple subtitle tracks.
 
-12. **Documentation:**
-      * **Investigation Requirements Engineering:** Changing the Investigation Requirements Engineering documentation about functional requirements and non-functional requirements by using the changes mentioned by the client.
+## Documentation:
+  * **Investigation Requirements Engineering:** Changing the Investigation Requirements Engineering documentation about functional requirements and non-functional requirements by using the changes mentioned by the client.
+ 
 
  ## Key Elements of a Student Login Page for an Online Learning Platform
    * **Logo:** Displays the platform’s branding for recognition and trust.
