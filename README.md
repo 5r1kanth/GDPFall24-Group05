@@ -129,6 +129,9 @@
    *  **Subtitle Support:** Offer subtitles and closed captions for videos to make content accessible to non-native speakers and users with hearing impairments.
    *  **Offline Viewing via App:** If you have a mobile app, offer an offline viewing mode that allows students to download and access videos even without internet access.
    *  **Video Search & Bookmarking:** Provide a search feature within videos for users to quickly find specific topics or sections. Allow them to bookmark or annotate important sections for later review.
+   *  **Multi-Device Sync:** Allow users to pause a video on one device (e.g., laptop) and resume it on another (e.g., mobile) from the same point, syncing across devices.
+   *  **Low-Latency Streaming:** Optimize for low-latency streaming to minimize the delay between the video content and what users see, providing a real-time experience.
+        has context menu
 
 
 9.  **Role-Based Access Control:**
