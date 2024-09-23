@@ -149,6 +149,7 @@
         * Take Quizzes and Exams: Participate in assessments with timed tests and instant feedback.
         * View Grades and Feedback: Check grades and read instructor feedback on assignments.
         * Download Certificates: Obtain completion certificates in various formats.
+      * **User Interface Elements:** Course pages, quiz interfaces, and certificate download options.
 
       **Admin Role:**
       * **Permissions:** Manage users, manage content, adjust settings, and monitor platform activity.
