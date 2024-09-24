@@ -126,7 +126,9 @@
 
 8. **Video Streaming and Downloadable Content:** 
    * **High-Quality Streaming**: Support for various resolutions and adaptive bitrate streaming. 
-   * **Download Options**: Allow students to download course materials for offline access. 
+   * **Download Options**: Allow students to download course materials for offline access.
+   * **Custom Thumbnails & Previews:** Support custom video thumbnails and hover previews so users can get a sneak peek of the video content before playing it.
+   * **Playback Resume Feature:** Ensure that users can resume watching a video from where they left off across different sessions and devices. 
    * **CDN Integration**: Use Content Delivery Networks to ensure smooth video playback.
    *  **High-Quality Video Encoding:** Ensure that videos are encoded in multiple resolutions (480p, 720p, 1080p, etc.) to cater to different devices and internet speeds.
    *  **Video Player Customization:** Include features like playback speed control, captions, a full-screen mode, volume adjustment, and video scrubbing (allowing users to jump to specific sections).
