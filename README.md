@@ -73,6 +73,7 @@
     * **Font-Styles:** Applying different font styles to the subtitles in the video.
     * **Language Management:** Allows the instructor to create and manage the videos in different languages.
     * **Content Switching:** Allows the user to switch the languages without loosing any progress.
+    * **Course Materials:** Translate lesson texts, videos (subtitles), quizzes, and supplementary materials.
       
       **Fallback Mechanism:**
        * **Default Language Fallback:** Allow the user to use the content in the default language when user's preferred language is not available.
