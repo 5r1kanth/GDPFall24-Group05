@@ -160,6 +160,7 @@
 
       **Admin Role:**
       * **Permissions:** Manage users, manage content, adjust settings, and monitor platform activity.
+      * **User Interface Elements:** User management interface, content oversight panels, settings configuration, and activity dashboards.
 
  10. **Multi-Language Support:**
       * **Text Generator:** Providing the text(sub-titles) for the audio in different styles and colours.
