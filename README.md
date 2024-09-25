@@ -122,8 +122,10 @@
          loaded first.
     *  **Multi-Tenancy Support:** Design the platform to support multi-tenancy, allowing the same infrastructure to serve multiple clients or institutions efficiently while isolating 
          their data.
-       
-    
+
+       **Optimize API & Database Management**
+       * **Database Sharding & Replication:** Use read replicas to offload read-heavy operations, increasing availability.
+       * **Connection Pooling:** mplement database connection pooling to reduce the overhead of creating new database connections.
 
 8. **Video Streaming and Downloadable Content:** 
    * **High-Quality Streaming**: Support for various resolutions and adaptive bitrate streaming. 
