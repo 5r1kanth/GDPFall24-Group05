@@ -129,7 +129,10 @@
        * **Connection Pooling:** mplement database connection pooling to reduce the overhead of creating new database connections.
 
 8. **Video Streaming and Downloadable Content:** 
-   * **High-Quality Streaming**: Support for various resolutions and adaptive bitrate streaming. 
+   * **High-Quality Streaming**: Support for various resolutions and adaptive bitrate streaming.
+   * **Background Audio Playback:** Enable background audio playback, especially for mobile devices, so users can listen to lecture audio while multitasking or with the screen turned off.
+   * **Watermarked Downloads:** For downloadable videos or PDFs, add watermarks (e.g., user ID, email) to discourage unauthorized sharing or redistribution.
+       has context menu 
    * **Download Options**: Allow students to download course materials for offline access.
    * **Custom Thumbnails & Previews:** Support custom video thumbnails and hover previews so users can get a sneak peek of the video content before playing it.
    * **Playback Resume Feature:** Ensure that users can resume watching a video from where they left off across different sessions and devices. 
