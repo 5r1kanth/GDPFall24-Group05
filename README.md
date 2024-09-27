@@ -155,6 +155,7 @@
       **Instructor Role:**
        * **Permissions:** Create and manage courses, view analytics, grade assignments, and interact with students.
        * **User Interface Elements:** Dashboards for course management, analytics, grading, and messaging.
+       * **Design Tips:** For managing courses and students, make sure the user interface is clear and easy to use, with dashboards customised to various roles.
 
       **Student Role:**
       * **Permissions:**
