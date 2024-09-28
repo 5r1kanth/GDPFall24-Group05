@@ -207,6 +207,7 @@
    * **Community Links:** Quick links to forums or group discussions.
    * **Resource Links:** Section for downloadable course materials.
    * **Footer:** Contains links to policies and contact information.
+   * **Achievements & Badges:** Showcase earned achievements, badges, or certificates to motivate students and highlight their progress in various courses.
 
  ## Key Elements of a Student Course Catalog Screen UI Elements for an Online Learning Platform
    * **Header:** Contains the platform logo, navigation menu, and search bar for easy access to key areas.
