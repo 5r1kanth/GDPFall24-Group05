@@ -75,6 +75,7 @@
     * **Content Switching:** Allows the user to switch the languages without loosing any progress.
     * **Course Materials:** Translate lesson texts, videos (subtitles), quizzes, and supplementary materials.
     * **Help and Support:** Translate FAQ sections, helpdesk instructions, and support chat into supported languages.
+    * **Payment System:** Support multiple currencies and languages for payment portals.
       
       **Fallback Mechanism:**
        * **Default Language Fallback:** Allow the user to use the content in the default language when user's preferred language is not available.
