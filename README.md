@@ -195,6 +195,7 @@
    * **Error Messages:** Displays real-time feedback for any input errors.
    * **Privacy Policy Link:** Connects to the platform's privacy policy for user assurance.
    * **Terms of Service Link:** Links to the terms governing the use of the platform.
+   * **Social Media Login Options:** Allow students to log in using their social media accounts (e.g., Google, Facebook, Apple) for quicker access.
 
  ## Key Elements of a Student Home Page for an Online Learning Platform
    * **Header:** Contains navigation links and the logo.
