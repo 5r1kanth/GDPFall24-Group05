@@ -1,4 +1,4 @@
-# Welcome to Chaduvuko
+ # Welcome to Chaduvuko
 ### Online Learning Platform
 **Brief Description:** A platform offering a variety of online courses with video lectures, quizzes, and certificates of completion.
 
@@ -204,6 +204,8 @@
      * **Progress Bar:** Visual representation of overall course completion.
      * **Upcoming Assignments:** List format showing due dates.
    * **Course Cards:** Two course cards side by side for quick access to current courses.
+   * **Calendar Integration:** Include an integrated calendar that shows assignment due dates, upcoming quizzes, scheduled live sessions, or office hours for a clear overview of tasks and 
+     deadlines.
    * **Notification Center:** Alerts section for new notifications and messages.
    * **Search Bar:** Centered for easy access to search for courses or resources.
    * **Community Links:** Quick links to forums or group discussions.
