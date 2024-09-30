@@ -165,6 +165,7 @@
         * View Grades and Feedback: Check grades and read instructor feedback on assignments.
         * Download Certificates: Obtain completion certificates in various formats.
       * **User Interface Elements:** Course pages, quiz interfaces, and certificate download options.
+      * **Design Tips:** Organize content for easy access, include progress tracking, and provide a user-friendly interface for coursework and submissions.
 
       **Admin Role:**
       * **Permissions:** Manage users, manage content, adjust settings, and monitor platform activity.
