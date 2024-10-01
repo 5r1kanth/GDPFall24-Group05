@@ -237,4 +237,14 @@
    * **Related Courses:** Suggestions for similar courses.
    * **Footer:** Links to support and platform policies.
 
+## Key Elements of a Student Certificate Page UI Elements
+  * **Header**: Platform logo, navigation bar, and search bar.
+  * **Certificate Overview Section**: Title ("Your Certificates") and a brief description.
+  * **Certificate Cards**: Displays course title, completion date, instructor name, certificate thumbnail, download, and view buttons.
+  * **Certificate Filters/Sorting**: Filter by course, date, and sorting options.
+  * **Download All Button**: Option to bulk download all certificates.
+  * **Share Option**: Social media icons and copy link for sharing certificates.
+  * **Course Links**: Button to continue learning or view related courses.
+  * **Help/Support**: Links to certificate-related support and FAQs.
+  * **Footer**: Links to platform policies, certificate verification, and contact information.
 
