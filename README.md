@@ -76,6 +76,7 @@
     * **Course Materials:** Translate lesson texts, videos (subtitles), quizzes, and supplementary materials.
     * **Help and Support:** Translate FAQ sections, helpdesk instructions, and support chat into supported languages.
     * **Payment System:** Support multiple currencies and languages for payment portals.
+    * **Localized User Interface:** Translate the interface such as menu labels, buttons, form fields into supported languages.
       
       **Fallback Mechanism:**
        * **Default Language Fallback:** Allow the user to use the content in the default language when user's preferred language is not available.
