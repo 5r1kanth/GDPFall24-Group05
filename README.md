@@ -191,6 +191,7 @@
    * **Email Input Field:** Where users enter their registered email address.
    * **Password Input Field:** Where users enter their password for account access.
    * **Password Visibility Toggle:** Allows users to view or hide their password as they type.
+   * **Guest Access Option:** Provide a guest login for users to explore limited content before registering an account.
    * **Login Button:** Prominent button for submitting login credentials.
    * **Forgot Password Link:** Directs users to reset their password if forgotten.
    * **Sign-Up Link:** Provides a pathway for new users to create an account.
