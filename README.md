@@ -249,3 +249,6 @@
   * **Help/Support**: Links to certificate-related support and FAQs.
   * **Footer**: Links to platform policies, certificate verification, and contact information.
 
+## Database Options
+  * **MySQL / PostgreSQL (Relational Databases):** These are reliable and widely used SQL databases, offering strong support for complex queries, ACID compliance, and transactional data.
+
