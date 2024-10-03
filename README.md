@@ -190,6 +190,7 @@
    * **Logo:** Displays the platform’s branding for recognition and trust.
    * **Page Title:** Clearly indicates the purpose of the page (e.g., "Login to Your Account").
    * **Email Input Field:** Where users enter their registered email address.
+   * **Loading Indicators:** Use a loading spinner or indicator to show users that their login is being processed, improving user experience and reducing frustration during slow connections.
    * **Password Input Field:** Where users enter their password for account access.
    * **Password Visibility Toggle:** Allows users to view or hide their password as they type.
    * **Guest Access Option:** Provide a guest login for users to explore limited content before registering an account.
