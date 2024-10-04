@@ -156,9 +156,13 @@
     * **Admin Roles:** Oversight and management of users, content, and platform settings.
 
       **Instructor Role:**
-       * **Permissions:** Create and manage courses, view analytics, grade assignments, and interact with students.
-       * **User Interface Elements:** Dashboards for course management, analytics, grading, and messaging.
-       * **Design Tips:** For managing courses and students, make sure the user interface is clear and easy to use, with dashboards customised to various roles.
+      * **Permissions:**
+        * Create and Manage Courses: Develop and upload materials. Organize lessons into modules or chapters. Create quizzes, assignments, and exams.  
+        * View Analytics: Track student progress. Analyze performance metrics for improvement. 
+        * Interact with Students: Grade assignments, provide feedback, respond to queries. Moderate discussions and live sessions. 
+        * Manage Settings: Adjust deadlines, visibility, and control enrollment.
+      * **User Interface Elements:** Dashboards for course management, analytics, grading, and messaging.
+      * **Design Tips:** For managing courses and students, make sure the user interface is clear and easy to use, with dashboards customised to various roles.
 
       **Student Role:**
       * **Permissions:**
