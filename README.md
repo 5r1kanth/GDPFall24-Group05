@@ -269,6 +269,18 @@
   * **Help/Support**: Support resources and helpdesk contact.
   * **Footer**: Policies, terms, and privacy links.
 
+## Key Elements of an Instructor Dashboard UI Elements
+  * **Header**: Navigation links and platform logo.
+  * **Course Cards**: Display course title, enrollment count, and average grades.
+  * **Average Student Grades**: Shows average grades for courses.
+  * **Assignment Submission Rates**: Displays percentage of assignments submitted.
+  * **Upcoming Deadlines**: List of upcoming assignments and quizzes.
+  * **Notification Center**: Alerts for student inquiries and important updates.
+  * **Search Bar**: For searching specific courses or students.
+  * **Downloadable Materials**: Quick access to teaching resources.
+  * **Footer**: Links to policies, contact information, and support.
+  * **Quick Action Buttons**: Button for creating a new course.
+
 
 ## Key Elements of a Database Options
   * **MySQL / PostgreSQL (Relational Databases):** These are reliable and widely used SQL databases, offering strong support for complex queries, ACID compliance, and transactional data.
