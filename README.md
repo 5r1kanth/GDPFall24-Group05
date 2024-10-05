@@ -78,6 +78,7 @@
     * **Payment System:** Support multiple currencies and languages for payment portals.
     * **Localized User Interface:** Translate the interface such as menu labels, buttons, form fields into supported languages.
     * **Content Updates:** Plan for continuous updates and maintenance of translations when content or UI changes.
+    * **Organizational Structure:** Organize content to allow for easy management of multiple language versions, ensuring that users can switch languages seamlessly.
       
       **Fallback Mechanism:**
        * **Default Language Fallback:** Allow the user to use the content in the default language when user's preferred language is not available.
@@ -189,6 +190,7 @@
 ## Documentation:
   * **Investigation Requirements Engineering:** Changing the Investigation Requirements Engineering documentation about functional requirements and non-functional requirements by using the changes mentioned by the client.
   * **List of Proposed Prototypes:** Updated the list of proposed prototypes by adding User Login and Registration Interface, Course Creation Dashboard and Course Catalog Page for the course learning platform.
+
  
 
  ## Key Elements of a Student Login Page for an Online Learning Platform
