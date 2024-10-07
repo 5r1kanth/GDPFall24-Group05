@@ -175,7 +175,11 @@
       * **Design Tips:** Organize content for easy access, include progress tracking, and provide a user-friendly interface for coursework and submissions.
 
       **Admin Role:**
-      * **Permissions:** Manage users, manage content, adjust settings, and monitor platform activity.
+      * **Permissions:**
+        * Manage Users: Add, edit, or remove users. Assign roles and permissions to users and view and modify user profiles.
+	       * Manage Content: Create, update, or delete courses, lessons, and assignments. Manage multimedia content and publish or unpublish content on the platform.
+        * Adjust Settings: Configure platform-wide settings (e.g., notifications, themes, and display preferences).
+        * Monitor Platform Activity: Track user activity and generate reports. Monitor platform health. Identify and address potential security issues.
       * **User Interface Elements:** User management interface, content oversight panels, settings configuration, and activity dashboards.
       * **Design Tips:** Create comprehensive dashboards, ensure robust search/filter functions, and incorporate alert systems for platform health and security.
 
