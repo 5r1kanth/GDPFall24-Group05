@@ -290,6 +290,18 @@
   * **Footer**: Links to policies, contact information, and support.
   * **Quick Action Buttons**: Button for creating a new course.
 
+## Key Elements of an Student Dashboard UI Elements
+  * **Header:** Logo, navigation bar, search bar, profile/settings, notifications.
+  * **Course Overview:** Personalized display of enrolled courses (titles, images).
+  * **Progress Tracking:** Progress bars or percentages for each course.
+  * **Upcoming Deadlines:** List or calendar of quizzes, assignments, exams.
+  * **Certificates:** View and download certificates for completed courses.
+  * **Recent Activity:** Feed showing recently watched lectures or completed assignments.
+  * **Performance Metrics:** Average quiz scores, completed courses, time spent on platform.
+  * **Learning Recommendations:** Suggested courses based on performance.
+  * **Course Filters:** Filter/sort courses by progress, completion, or category.
+  * **Help/Support:** Support resources, FAQs, contact information.
+  * **Footer:** Policies, terms, and privacy links.
 
 ## Key Elements of a Database Options
   * **MySQL / PostgreSQL (Relational Databases):** These are reliable and widely used SQL databases, offering strong support for complex queries, ACID compliance, and transactional data.
