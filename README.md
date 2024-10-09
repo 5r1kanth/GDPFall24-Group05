@@ -308,6 +308,7 @@
   * **MySQL / PostgreSQL (Relational Databases):** These are reliable and widely used SQL databases, offering strong support for complex queries, ACID compliance, and transactional data.
   * **MongoDB (NoSQL Database):** MongoDB offers great flexibility with semi-structured data, allowing dynamic schema designs for different user profiles and course details.
   * **Amazon DynamoDB (NoSQL - Cloud Native):** DynamoDB is designed for large-scale applications and provides strong scalability with a managed infrastructure.
+  * **Oracle Database (Relational):** Oracle Database is a powerful, enterprise-grade relational database known for its robustness and scalability.
 
 ## To create a secure video streaming website, you need to:
   1. **Choose a Service**: Pick a platform to host your videos online.
