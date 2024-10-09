@@ -264,6 +264,7 @@
   * **Course Links**: Button to continue learning or view related courses.
   * **Help/Support**: Links to certificate-related support and FAQs.
   * **Footer**: Links to platform policies, certificate verification, and contact information.
+  * **Responsive Design**: Ensures that the page is mobile and tablet friendly, adapting layout based on device.
 
 ## Key Elements of an Admin Dashboard UI Elements
   * **Header**: Logo, navigation bar, search bar, profile/settings.
