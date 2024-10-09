@@ -309,3 +309,12 @@
   * **MongoDB (NoSQL Database):** MongoDB offers great flexibility with semi-structured data, allowing dynamic schema designs for different user profiles and course details.
   * **Amazon DynamoDB (NoSQL - Cloud Native):** DynamoDB is designed for large-scale applications and provides strong scalability with a managed infrastructure.
 
+## To create a secure video streaming website, you need to:
+  1. **Choose a Service**: Pick a platform to host your videos online.
+  2. **Protect Your Videos**: Use DRM (like a digital lock) to prevent unauthorized copying or sharing.
+  3. **Prepare Videos**: Convert and encrypt your videos for safe streaming.
+  4. **Use a Video Player**: Integrate a tool that plays your videos on the website.
+  5. **Set Up a License Server**: Create a system that checks if users can watch the videos.
+  6. **Build the Website**: Use tools to display the video player and manage user access.
+  7. **Test and Monitor**: Ensure everything works well and keep track of performance.
+
