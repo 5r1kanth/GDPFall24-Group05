@@ -231,6 +231,7 @@
    * **Achievements & Badges:** Showcase earned achievements, badges, or certificates to motivate students and highlight their progress in various courses.
    * **To-Do List:** A personal checklist where students can add tasks and prioritize their studies.
    * **Bookmarks or Favorites:** Allow students to mark important lessons, pages, or resources for quick access later.
+   * **Download Center:** A section for easy access to download all course-related resources, such as syllabi, assignments, and reading materials.
 
  ## Key Elements of a Student Course Catalog Screen UI Elements for an Online Learning Platform
    * **Header:** Contains the platform logo, navigation menu, and search bar for easy access to key areas.
