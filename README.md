@@ -280,6 +280,7 @@
   * **Notifications**: Alerts and system updates.
   * **Help/Support**: Support resources and helpdesk contact.
   * **Footer**: Policies, terms, and privacy links.
+  * **Learning Path Progression**: Monitor and manage learning paths for different students or cohorts.
 
 ## Key Elements of an Instructor Dashboard UI Elements
   * **Header**: Navigation links and platform logo.
