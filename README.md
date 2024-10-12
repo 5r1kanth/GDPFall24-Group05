@@ -195,6 +195,7 @@
 
 ## Documentation:
   * **Investigation Requirements Engineering:** Changing the Investigation Requirements Engineering documentation about functional requirements and non-functional requirements by using the changes mentioned by the client.
+  * **Non-Functional Requirements List(Iteration 2):** Updated the Non-Functional Requirements list document by adding Data Integrity, Scalable Infrastructure and compliance to the document and created a wiki page for the Non-Functional Requirements List in the github.
   * **List of Proposed Prototypes:** Updated the list of proposed prototypes by adding User Login and Registration Interface, Course Creation Dashboard and Course Catalog Page for the course learning platform.
 
  
