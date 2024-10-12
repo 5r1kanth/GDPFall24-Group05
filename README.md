@@ -225,6 +225,7 @@
    * **Calendar Integration:** Include an integrated calendar that shows assignment due dates, upcoming quizzes, scheduled live sessions, or office hours for a clear overview of tasks and 
      deadlines.
    * **Notification Center:** Alerts section for new notifications and messages.
+   * **Recent Activity Feed:** A timeline-style feed displaying the student’s recent interactions, such as submitted assignments, completed quizzes, and forum discussions.
    * **Search Bar:** Centered for easy access to search for courses or resources.
    * **Community Links:** Quick links to forums or group discussions.
    * **Resource Links:** Section for downloadable course materials.
