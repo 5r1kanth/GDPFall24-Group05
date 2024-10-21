@@ -34,6 +34,10 @@
         * **Quiz Builder Flexibility:** Allow for multiple question types: multiple-choice, true/false, fill-in-the-blank, matching, and short answers. Teachers should be able to easily 
           create and customize quizzes.
         * **Timed Quizzes:** Allow the creation of timed quizzes to simulate real exam scenarios. Include visible timers that count down during the quiz.
+          
+        **Adaptive Quizzes**
+        * **Dynamic Difficulty Adjustment:** Implement adaptive quizzes that change the difficulty level of questions based on the student's performance. For example, correct answers lead 
+        to harder questions, while incorrect answers lead to easier ones.
 
 3.	**Certificates of Completion:**
     * **Customizable Certificates:** Design and issue certificates based on course completion.
