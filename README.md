@@ -337,5 +337,6 @@
   3. **Configure the CDN**: Point the CDN to your video storage, enable HTTPS, and optimize caching settings for better performance.
   4. **Update URLs**: Replace direct storage links with CDN-generated URLs for video content delivery in the app.
   5. **Enhance Security**: Use **Signed URLs** or **Token-based authentication** to prevent unauthorized access to video content.
-  6. **Monitor Performance**: Use CDN analytics to track traffic, bandwidth usage, and optimize content delivery.
+  6. **Monitor Performance**:Use CDN analytics to track traffic, bandwidth usage, video performance. Adjust caching and delivery settings based on this data to improve 
+                             speed, reduce load, and enhance user experience.
 
