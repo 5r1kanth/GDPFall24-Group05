@@ -157,6 +157,9 @@
    *  **Low-Latency Streaming:** Optimize for low-latency streaming to minimize the delay between the video content and what users see, providing a real-time experience.
         has context menu
 
+      **Interactive Video Elements**
+      * **Interactive Quizzes within Videos:** Embed quizzes or assessments directly into video content, allowing students to answer questions and engage with material as they watch.
+
 
 9.  **Role-Based Access Control:**
     * **Instructor Roles:** Permissions for creating and managing courses, viewing analytics, etc.
