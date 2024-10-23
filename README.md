@@ -161,6 +161,7 @@
 
       **Interactive Video Elements**
       * **Interactive Quizzes within Videos:** Embed quizzes or assessments directly into video content, allowing students to answer questions and engage with material as they watch.
+      * **Annotations and Notes:** Allow students to add personal annotations or notes while watching videos, which they can reference later for revision.
 
 
 9.  **Role-Based Access Control:**
