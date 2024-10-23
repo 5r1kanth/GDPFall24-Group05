@@ -38,6 +38,8 @@
         **Adaptive Quizzes**
         * **Dynamic Difficulty Adjustment:** Implement adaptive quizzes that change the difficulty level of questions based on the student's performance. For example, correct answers lead 
         to harder questions, while incorrect answers lead to easier ones.
+        * **Personalized Quizzes:** Allow instructors to create personalized quizzes tailored to individual student performance, strengths, and weaknesses.
+
 
 3.	**Certificates of Completion:**
     * **Customizable Certificates:** Design and issue certificates based on course completion.
