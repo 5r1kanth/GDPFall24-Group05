@@ -367,3 +367,18 @@
   6. **Monitor Performance**:Use CDN analytics to track traffic, bandwidth usage, video performance. Adjust caching and delivery settings based on this data to improve 
                              speed, reduce load, and enhance user experience.
 
+## Video Player Features
+
+### 1. Speed Control
+- **Purpose**: Allows users to watch videos at different speeds, such as slowing down for better understanding or speeding up to save time.
+- **Common Use**: Used in educational videos, tutorials, and entertainment.
+- **Range**: Typically from 0.5x (half speed) to 2x (double speed).
+- **Considerations**: Adjusting playback speed should maintain synchronization between video and audio. Audio should not sound distorted, even at faster or slower speeds.
+
+### 2. Subtitles
+- **Purpose**: Display text captions during a video, which can represent spoken dialogue or describe sounds. Important for accessibility and supporting multiple languages.
+- **Formats**: Common subtitle formats include WebVTT and SRT.
+- **Usage**: Subtitles help users who are deaf, hard-of-hearing, or watching in a non-native language. Multiple subtitle tracks can offer different language options.
+- **Accessibility**: Subtitles can also describe non-verbal elements like music or background sounds to aid viewers with hearing difficulties.
+
+
