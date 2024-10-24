@@ -66,6 +66,7 @@
       **Issuance and Management:**
         * **Automatic Awarding:** Set up rules to automatically give badges when certain milestones are reached.
         * **Manual Awarding:** Let instructors give badges manually for outstanding achievements.
+        * **Security:** Use unique IDs or QR codes on certificates and badges to verify authenticity and prevent misuse.
 
       **Tracking and Analytics:**
         * **Progress Tracking:** Keep track of who has received badges and their progress.
