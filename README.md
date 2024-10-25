@@ -320,6 +320,7 @@
   * **Header**: Navigation links and platform logo.
   * **Course Cards**: Display course title, enrollment count, and average grades.
   * **Average Student Grades**: Shows average grades for courses.
+  * **Student Progress Tracker**: Displays individual student progress and areas where students may need extra help.
   * **Assignment Submission Rates**: Displays percentage of assignments submitted.
   * **Upcoming Deadlines**: List of upcoming assignments and quizzes.
   * **Notification Center**: Alerts for student inquiries and important updates.
