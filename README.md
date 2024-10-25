@@ -168,6 +168,9 @@
       * **Interactive Quizzes within Videos:** Embed quizzes or assessments directly into video content, allowing students to answer questions and engage with material as they watch.
       * **Annotations and Notes:** Allow students to add personal annotations or notes while watching videos, which they can reference later for revision.
 
+      **Video Chapters and Segmenting**
+      * **Chapter Markers:** Enable instructors to create chapter markers within videos, allowing students to quickly jump to specific sections of the content.
+
 
 10.  **Role-Based Access Control:**
     * **Instructor Roles:** Permissions for creating and managing courses, viewing analytics, etc.
