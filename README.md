@@ -389,4 +389,14 @@
 - **Usage**: Subtitles help users who are deaf, hard-of-hearing, or watching in a non-native language. Multiple subtitle tracks can offer different language options.
 - **Accessibility**: Subtitles can also describe non-verbal elements like music or background sounds to aid viewers with hearing difficulties.
 
-
+## Progress Bar with Milestones: Implementation Explanation
+1. **HTML Structure**:  
+   - Create a container (`progress-container`) for the progress bar.
+   - Add individual markers (milestones) for key sections/modules. Each marker is positioned at a specific percentage along the bar to represent a major checkpoint.
+2. **CSS Styling**:  
+   - Style the container to resemble a horizontal progress bar with a background color indicating uncompleted progress.
+   - Apply a different color to the completed portion of the bar, adjusting its width dynamically.
+   - Position milestone markers along the progress bar to show key progress points (e.g., Module 1, Module 2), providing visual cues for completion stages.
+3. **JavaScript for Dynamic Updates**:  
+   - Create a function to dynamically adjust the width of the filled portion of the bar based on the completion percentage (e.g., 50%).
+   - When called, this function updates the bar in real time, reflecting course progress visually.
