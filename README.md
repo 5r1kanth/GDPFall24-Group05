@@ -40,8 +40,12 @@
         to harder questions, while incorrect answers lead to easier ones.
         * **Personalized Quizzes:** Allow instructors to create personalized quizzes tailored to individual student performance, strengths, and weaknesses.
 
+	**Question Pools and Randomization**
+        * **Randomized Quizzes:** Ensure that each student gets a unique set of questions by allowing random selection from a predefined pool of questions. This minimizes cheating and 
+        promotes fairness.
 
-3.	**Certificates of Completion:**
+
+4.	**Certificates of Completion:**
     * **Customizable Certificates:** Design and issue certificates based on course completion.
 
       **Design and Creation:**
@@ -73,7 +77,7 @@
         * **Feedback Collection:** Get feedback on how useful and motivating the badges are.
 
 
-4. **Multi-Language Support:**
+5. **Multi-Language Support:**
     * **Localization:** Provide content in multiple languages.
     * **Translation Tools:** Support for translating course materials and user interfaces.
     * **Language-Specific Feedback Mechanisms:** Developing a system that offers personal feedback in the users preferred language.
@@ -93,7 +97,7 @@
       **Fallback Mechanism:**
        * **Default Language Fallback:** Allow the user to use the content in the default language when user's preferred language is not available.
 
-5. **Course Catalog and Search:**
+6. **Course Catalog and Search:**
     * **Search Functionality:** Users can search for courses based on keywords, categories, or instructors.
     * **Filters:** Options to sort by difficulty, duration, ratings, or language.
       
@@ -110,7 +114,7 @@
 
 
 
-6. **Progress Tracking and User Interface:**
+7. **Progress Tracking and User Interface:**
     * **Progress Bar:** Visual representation of course progress.
       * **Visual Representation:** Use a bar to show how much of the course is completed. You can use a horizontal bar, a circular indicator, or both.
       * **Milestones:** Add markers on the bar for key sections or modules to show major progress points
@@ -121,7 +125,7 @@
       * **Course Summary:** Provide an overview of current courses, including progress, upcoming lessons, and deadlines.
       * **Achievements:** Display earned certificates and badges, plus any other achievements.
   
-7. **Scalability and Performance:** 
+8. **Scalability and Performance:** 
     *  **Load Balancing:** Ensure the platform can handle high traffic volumes. 
     *  **Scalable Infrastructure:** Use cloud services to dynamically scale resources as needed.
     *  **Elastic Load Testing:** Regularly conduct elastic load testing to simulate high traffic and ensure your platform performs well under various conditions, such as sudden spikes in 
@@ -142,7 +146,7 @@
        * **Database Sharding & Replication:** Use read replicas to offload read-heavy operations, increasing availability.
        * **Connection Pooling:** mplement database connection pooling to reduce the overhead of creating new database connections.
 
-8. **Video Streaming and Downloadable Content:** 
+9. **Video Streaming and Downloadable Content:** 
    * **High-Quality Streaming**: Support for various resolutions and adaptive bitrate streaming.
    * **Background Audio Playback:** Enable background audio playback, especially for mobile devices, so users can listen to lecture audio while multitasking or with the screen turned off.
    * **Watermarked Downloads:** For downloadable videos or PDFs, add watermarks (e.g., user ID, email) to discourage unauthorized sharing or redistribution.
@@ -165,7 +169,7 @@
       * **Annotations and Notes:** Allow students to add personal annotations or notes while watching videos, which they can reference later for revision.
 
 
-9.  **Role-Based Access Control:**
+10.  **Role-Based Access Control:**
     * **Instructor Roles:** Permissions for creating and managing courses, viewing analytics, etc.
     * **Student Roles:** Access to course materials, quizzes, and certificates.
     * **Admin Roles:** Oversight and management of users, content, and platform settings.
@@ -197,11 +201,11 @@
       * **User Interface Elements:** User management interface, content oversight panels, settings configuration, and activity dashboards.
       * **Design Tips:** Create comprehensive dashboards, ensure robust search/filter functions, and incorporate alert systems for platform health and security.
 
- 10. **Multi-Language Support:**
+ 11. **Multi-Language Support:**
       * **Text Generator:** Providing the text(sub-titles) for the audio in different styles and colours.
       * **Translation Tools:** Support for translating the text(sub-titles) in different languages.
     
-11. **Video Player Features:**
+12. **Video Player Features:**
       * **Speed Control:** Allow users to adjust playback speed.
       * **Subtitles:** Support for multiple subtitle tracks.
 
