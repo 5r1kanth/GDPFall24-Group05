@@ -217,6 +217,7 @@
   * **Non-Functional Requirements List(Iteration 2):** Updated the Non-Functional Requirements list document by adding Data Integrity, Scalable Infrastructure and compliance to the document and created a wiki page for the Non-Functional Requirements List in the github.
   * **List of Proposed Prototypes:** Updated the list of proposed prototypes by adding User Login and Registration Interface, Course Creation Dashboard and Course Catalog Page for the course learning platform.
   * **Data Management Plan (Iteration 1):** Updated the Data Management Plan to include Data Integrity, Scalable Infrastructure, Compliance, and security strategies such as encryption, access control, and auditing. Created a wiki page for the plan on GitHub and updated ER Diagrams to reflect new data relationships.
+  * **Data Management Plan (Iteration 2):** Updated the Data Management Plan to change the entity relations between Course entity, Lectures entity and Videos entity according to the client suggestions. Created a wiki page for the data management plan on GitHub and updated ER Diagrams to reflect new data relationships.
 
  
 
