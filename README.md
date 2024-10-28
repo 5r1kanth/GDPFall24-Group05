@@ -44,6 +44,10 @@
         * **Randomized Quizzes:** Ensure that each student gets a unique set of questions by allowing random selection from a predefined pool of questions. This minimizes cheating and 
         promotes fairness.
 
+        **Multi-Section Quizzes**
+        * **Section-Based Quizzes:** Allow instructors to create quizzes divided into sections or modules, where students complete one section before moving on to the next. Each section 
+        can have its own timer or rules.
+
 
 4.	**Certificates of Completion:**
     * **Customizable Certificates:** Design and issue certificates based on course completion.
