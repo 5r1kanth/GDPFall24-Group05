@@ -40,7 +40,7 @@
         to harder questions, while incorrect answers lead to easier ones.
         * **Personalized Quizzes:** Allow instructors to create personalized quizzes tailored to individual student performance, strengths, and weaknesses.
 
-	**Question Pools and Randomization**
+        **Question Pools and Randomization**
         * **Randomized Quizzes:** Ensure that each student gets a unique set of questions by allowing random selection from a predefined pool of questions. This minimizes cheating and 
         promotes fairness.
 
