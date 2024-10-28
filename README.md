@@ -259,6 +259,7 @@
    * **To-Do List:** A personal checklist where students can add tasks and prioritize their studies.
    * **Bookmarks or Favorites:** Allow students to mark important lessons, pages, or resources for quick access later.
    * **Download Center:** A section for easy access to download all course-related resources, such as syllabi, assignments, and reading materials.
+   * **Course Recommendations:** Based on completed courses or user interests, suggest related or popular courses to encourage continued learning.
 
  ## Key Elements of a Student Course Catalog Screen UI Elements for an Online Learning Platform
    * **Header:** Contains the platform logo, navigation menu, and search bar for easy access to key areas.
