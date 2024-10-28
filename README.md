@@ -174,6 +174,7 @@
 
       **Video Chapters and Segmenting**
       * **Chapter Markers:** Enable instructors to create chapter markers within videos, allowing students to quickly jump to specific sections of the content.
+      * **Segmented Playback:** Split longer videos into smaller, digestible segments, and allow students to complete one segment before moving on to the next. This also helps with performance and bandwidth management.
 
 
 10.  **Role-Based Access Control:**
