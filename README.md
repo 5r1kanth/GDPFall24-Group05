@@ -128,7 +128,8 @@
     * **User Dashboard:** Personalized area where students can track their courses and achievements.
       * **Course Summary:** Provide an overview of current courses, including progress, upcoming lessons, and deadlines.
       * **Achievements:** Display earned certificates and badges, plus any other achievements.
-  
+      * 
+
 8. **Scalability and Performance:** 
     *  **Load Balancing:** Ensure the platform can handle high traffic volumes. 
     *  **Scalable Infrastructure:** Use cloud services to dynamically scale resources as needed.
@@ -190,6 +191,7 @@
         * Manage Settings: Adjust deadlines, visibility, and control enrollment.
       * **User Interface Elements:** Dashboards for course management, analytics, grading, and messaging.
       * **Design Tips:** For managing courses and students, make sure the user interface is clear and easy to use, with dashboards customised to various roles.
+      * **Designing Curriculum and Lessons:** Create a structured, well-organized curriculum that meets the learning objectives and aligns with the course goals.
 
       **Student Role:**
       * **Permissions:**
