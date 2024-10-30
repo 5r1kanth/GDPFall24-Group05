@@ -206,7 +206,7 @@
       **Admin Role:**
       * **Permissions:**
         * Manage Users: Add, edit, or remove users. Assign roles and permissions to users and view and modify user profiles.
-	* Manage Content: Create, update, or delete courses, lessons, and assignments. Manage multimedia content and publish or unpublish content on the platform.
+        * Manage Content: Create, update, or delete courses, lessons, and assignments. Manage multimedia content and publish or unpublish content on the platform.
         * Adjust Settings: Configure platform-wide settings (e.g., notifications, themes, and display preferences).
         * Monitor Platform Activity: Track user activity and generate reports. Monitor platform health. Identify and address potential security issues.
       * **User Interface Elements:** User management interface, content oversight panels, settings configuration, and activity dashboards.
