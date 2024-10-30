@@ -195,7 +195,8 @@
 
       **Student Role:**
       * **Permissions:**
-        * Access Course Materials: View videos, readings, and assignments.
+        * Access Course Materials: View all assigned course videos, readings, and assignments within the course portal. Easily navigate between content sections for a 
+          streamlined learning experience.
         * Take Quizzes and Exams: Participate in assessments with timed tests and instant feedback.
         * View Grades and Feedback: Check grades and read instructor feedback on assignments.
         * Download Certificates: Obtain completion certificates in various formats.
