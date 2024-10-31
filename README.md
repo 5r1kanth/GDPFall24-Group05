@@ -183,6 +183,7 @@
 
       **Bandwidth Optimization**
       * **Data Saver Mode:** Implement a data saver mode where users can choose to stream videos at a lower quality (even audio-only) to save bandwidth while still engaging with the content.
+      * **Lower Video Quality:** Offer reduced video quality options (e.g., 144p, 240p, or 360p) to minimize data usage without losing access to visual content.
 
 
 10.  **Role-Based Access Control:**
