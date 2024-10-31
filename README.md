@@ -181,6 +181,9 @@
       * **Chapter Markers:** Enable instructors to create chapter markers within videos, allowing students to quickly jump to specific sections of the content.
       * **Segmented Playback:** Split longer videos into smaller, digestible segments, and allow students to complete one segment before moving on to the next. This also helps with performance and bandwidth management.
 
+      **Bandwidth Optimization**
+      * **Data Saver Mode:** Implement a data saver mode where users can choose to stream videos at a lower quality (even audio-only) to save bandwidth while still engaging with the content.
+
 
 10.  **Role-Based Access Control:**
     * **Instructor Roles:** Permissions for creating and managing courses, viewing analytics, etc.
