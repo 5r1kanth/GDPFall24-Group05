@@ -48,6 +48,10 @@
         * **Section-Based Quizzes:** Allow instructors to create quizzes divided into sections or modules, where students complete one section before moving on to the next. Each section 
         can have its own timer or rules.
 
+        **Quiz Retakes and Attempts Management**
+        * **Retake Options:** Allow instructors to set the number of quiz retakes permitted for students. They can also set specific rules for retakes, such as time limits or different 
+        question sets for each attempt.
+
 
 4.	**Certificates of Completion:**
     * **Customizable Certificates:** Design and issue certificates based on course completion.
