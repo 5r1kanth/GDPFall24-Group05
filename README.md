@@ -51,6 +51,7 @@
         **Quiz Retakes and Attempts Management**
         * **Retake Options:** Allow instructors to set the number of quiz retakes permitted for students. They can also set specific rules for retakes, such as time limits or different 
         question sets for each attempt.
+        * **Best Score or Average Score:** Provide options to use the best score, the most recent score, or the average score from multiple attempts for grading.
 
 
 4.	**Certificates of Completion:**
