@@ -368,6 +368,7 @@
   * **Course Filters:** Filter/sort courses by progress, completion, or category.
   * **Help/Support:** Support resources, FAQs, contact information.
   * **Footer:** Policies, terms, and privacy links.
+  * **Bookmark:** Allow students to save important lectures, topics, or resources for quick access.
 
 ## Key Elements of a Database Options
   * **MySQL / PostgreSQL (Relational Databases):** These are reliable and widely used SQL databases, offering strong support for complex queries, ACID compliance, and transactional data.
