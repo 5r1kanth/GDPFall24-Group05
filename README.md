@@ -343,6 +343,7 @@
   * **Help/Support**: Support resources and helpdesk contact.
   * **Footer**: Policies, terms, and privacy links.
   * **Learning Path Progression**: Monitor and manage learning paths for different students or cohorts.
+  * **Role-Based Access Control**: Manage permissions for different user roles.
 
 ## Key Elements of an Instructor Dashboard UI Elements
   * **Header**: Navigation links and platform logo.
