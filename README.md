@@ -189,6 +189,9 @@
       * **Data Saver Mode:** Implement a data saver mode where users can choose to stream videos at a lower quality (even audio-only) to save bandwidth while still engaging with the content.
       * **Lower Video Quality:** Offer reduced video quality options (e.g., 144p, 240p, or 360p) to minimize data usage without losing access to visual content.
       * **Preloading for Seamless Streaming:** For users with intermittent connectivity, implement video preloading where content is cached ahead of time to prevent buffering during playback.
+    
+      **Enhanced Offline Experience**
+      * **Offline Annotations and Syncing:** Allow students to make annotations, bookmarks, or notes while viewing downloaded videos offline, with automatic syncing once back online.
 
 
 10.  **Role-Based Access Control:**
