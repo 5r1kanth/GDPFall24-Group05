@@ -52,6 +52,9 @@
         * **Retake Options:** Allow instructors to set the number of quiz retakes permitted for students. They can also set specific rules for retakes, such as time limits or different 
         question sets for each attempt.
         * **Best Score or Average Score:** Provide options to use the best score, the most recent score, or the average score from multiple attempts for grading.
+     
+        **Progressive Quizzes**
+        * **Cumulative Scoring:** Create quizzes that build on previous quizzes, where scores from earlier quizzes are carried over into subsequent quizzes for cumulative assessment.
 
 
 4.	**Certificates of Completion:**
