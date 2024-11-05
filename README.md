@@ -18,6 +18,7 @@
       * **Communication Tools:** Include features for instructor-student communication, such as discussion boards, messaging systems, and announcement tools, to facilitate interaction and feedback.
       * **Notification Center:** Alerts and Reminders: Automated notifications for course deadlines, student interactions,  Direct communication with students and other instructors and system updates.
       * **User Management**:Enrollment Tracking: Manage student enrollment status, attendance, and progress.
+      * **Scheduling and Timelines:** Provide options for setting course timelines, due dates for assignments, and scheduling live sessions
 
  
       
