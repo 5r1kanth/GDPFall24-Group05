@@ -194,6 +194,7 @@
     
       **Enhanced Offline Experience**
       * **Offline Annotations and Syncing:** Allow students to make annotations, bookmarks, or notes while viewing downloaded videos offline, with automatic syncing once back online.
+      * **Partial Downloading:** Enable partial downloads, allowing users to download specific sections of a video or course, rather than needing to download the entire file.
 
 
 10.  **Role-Based Access Control:**
