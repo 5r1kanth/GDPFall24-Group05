@@ -476,3 +476,21 @@
   9. **(Optional) Migrations**
      - Use tools like Flyway to version-control and manage schema changes.
 
+## Entity Relationships Explanation
+  1. **Users and Courses**
+     - **One-to-Many relationship**: Each `User` (as an instructor) can create multiple `Courses`, linked through `UserID` in the `Courses` table.
+  2. **Courses and Modules**
+     - **One-to-Many relationship**: Each `Course` can have multiple `Modules`. This is established with `CourseID` in the `Modules` table, pointing back to its parent course.
+  3. **Modules and Lectures**
+     - **One-to-Many relationship**: Each `Module` can contain multiple `Lectures`, connected by `ModuleID` in the `Lectures` table.
+  4. **Courses and Quizzes**
+     - **One-to-Many relationship**: A `Course` can have multiple `Quizzes`, linked via `CourseID` in the `Quizzes` table.
+  5. **Quizzes and QuizQuestions**
+     - **One-to-Many relationship**: Each `Quiz` contains multiple `QuizQuestions`, using `QuizID` in the `QuizQuestions` table.
+  6. **Users and Enrollments**
+     - **Many-to-Many relationship**: The `Enrollments` table links `Users` and `Courses` (students enrolled in courses) through `UserID` and `CourseID` foreign keys.
+  7. **Courses and Certificates**
+     - **Many-to-One relationship**: Each completed course can issue a `Certificate` to a `User`. `CertificateID`, `UserID`, and `CourseID` in the `Certificates` table link a user’s certificate to a course.
+  8. **Lectures and Videos**
+     - **One-to-One relationship**: Each `Lecture` can have a single associated `Video`, linked by `LectureID` in the `Videos` table.
+
