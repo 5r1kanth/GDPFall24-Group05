@@ -19,6 +19,7 @@
       * **Notification Center:** Alerts and Reminders: Automated notifications for course deadlines, student interactions,  Direct communication with students and other instructors and system updates.
       * **User Management**:Enrollment Tracking: Manage student enrollment status, attendance, and progress.
       * **Scheduling and Timelines:** Provide options for setting course timelines, due dates for assignments, and scheduling live sessions
+      * **Student Feedback Collection:** Set up post-course or mid-course feedback forms for students to assess the course’s content, instructor, and platform experience.
 
  
       
