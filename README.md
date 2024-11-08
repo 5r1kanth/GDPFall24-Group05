@@ -58,6 +58,10 @@
         **Progressive Quizzes**
         * **Cumulative Scoring:** Create quizzes that build on previous quizzes, where scores from earlier quizzes are carried over into subsequent quizzes for cumulative assessment.
         * **Progressive Difficulty:** Structure quizzes to become progressively harder as students move through the course, testing both foundational knowledge and advanced concepts.
+     
+        **Mobile-Friendly Quiz Interface**
+        * **Mobile-Optimized Quizzes:** Ensure that quizzes are fully responsive and work seamlessly on mobile devices, including touch controls for selecting answers and navigating 
+        between questions.
 
 
 4.	**Certificates of Completion:**
