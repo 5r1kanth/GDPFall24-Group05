@@ -20,6 +20,7 @@
       * **User Management**:Enrollment Tracking: Manage student enrollment status, attendance, and progress.
       * **Scheduling and Timelines:** Provide options for setting course timelines, due dates for assignments, and scheduling live sessions
       * **Student Feedback Collection:** Set up post-course or mid-course feedback forms for students to assess the course’s content, instructor, and platform experience.
+      * **Live Sessions:** Integrate with video conferencing tools to schedule and conduct live sessions. Include options for session recording and sharing links with students.
 
  
       
