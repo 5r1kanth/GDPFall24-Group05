@@ -129,7 +129,7 @@
        **Filters:**
         * **Difficulty Level:** Add a filter option for sorting courses by difficulty (e.g., beginner, intermediate, advanced).
         * **Duration:** Allow users to filter by course length (e.g., under 1 hour, 1-2 hours, 3+ hours).
-        * **Ratings:** Implement a filter for user ratings. 
+        * **Ratings:** Implement a filter for user ratings. Sorting by ratings helps users quickly identify high-quality courses.
         * **Language:** Provide an option to filter courses by language.
 
 
