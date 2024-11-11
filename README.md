@@ -514,3 +514,19 @@
   6. **User Quiz Interface**: Display quizzes for users to answer, then submit responses to the backend for evaluation.
   7. **Evaluation and Feedback**: Compare user answers with correct answers to calculate scores and provide feedback.
 
+## Steps to Make a Resource Downloadable
+  1. **Create a Controller** 
+    - Define a method to handle file download requests, accepting the filename in the URL.
+  2. **Validate the File**
+    - Check if the requested file exists and is readable on the server.
+  3. **Set Response Headers**
+    - Set `Content-Disposition` to `attachment` to trigger a download in the browser.
+  4. **Return the File as a Resource**
+    - Wrap the file in a `Resource` object and return it in the response.
+  5. **Create a Download Link**
+    - Add an `<a>` tag in HTML pointing to the file download URL.
+  6. **Serve the File**
+    - When the user clicks the link, the file is streamed to the browser for download.
+  7. **Handle Errors**
+    - Return an error (e.g., 404) if the file doesn’t exist.
+
