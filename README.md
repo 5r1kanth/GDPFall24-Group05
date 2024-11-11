@@ -63,6 +63,7 @@
         **Mobile-Friendly Quiz Interface**
         * **Mobile-Optimized Quizzes:** Ensure that quizzes are fully responsive and work seamlessly on mobile devices, including touch controls for selecting answers and navigating 
         between questions.
+        * **Mobile Preview:** Provide a mobile preview option so instructors can see how their course will appear to students on different devices.
 
 
 4.	**Certificates of Completion:**
