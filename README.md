@@ -257,6 +257,7 @@
   * **Data Management Plan (Iteration 1):** Updated the Data Management Plan to include Data Integrity, Scalable Infrastructure, Compliance, and security strategies such as encryption, access control, and auditing. Created a wiki page for the plan on GitHub and updated ER Diagrams to reflect new data relationships.
   * **Data Management Plan (Iteration 2):** Updated the Data Management Plan to change the entity relations between Course entity, Lectures entity and Videos entity according to the client suggestions. Created a wiki page for the data management plan on GitHub and updated ER Diagrams to reflect new data relationships.
   * **Seed Data:** Created the seed data document and updated the document with sample data for the entities in the data management plan also added the sql code for user table and course table for creation and insertion.
+  * **Seed Data:** Updated the seed data sample and made changes to the Course & Enrollments tables and changed data types of attributes bio, profile pictures and thumbnails atributes.
 
  
 
