@@ -205,6 +205,7 @@
     
       **Interactive Playlists**
       * **Custom Playlists:** Allow users to create custom playlists of videos, either from a single course or across multiple courses, to structure their own learning path.
+      * **Suggested Playlists:** Offer curated or instructor-created playlists for specific topics, ensuring students follow a recommended progression of content.
 
 
 10.  **Role-Based Access Control:**
