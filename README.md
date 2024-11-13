@@ -28,6 +28,7 @@
     * **Quiz Builder:** Create multiple-choice, true/false, and other types of questions.
     * **Automated Grading:** Instant feedback and grading for quizzes.
     * **Analytics:** Track quiz performance and identify areas where students may need additional help.
+    * **Question Pooling:** Pull questions randomly from a larger pool to ensure unique quizzes for each learner.
   
         **Efficient Automated Grading System**
         * **Real-Time Feedback:** Implement a system that provides immediate feedback after quiz submission, highlighting correct and incorrect answers with explanations when applicable.
