@@ -125,7 +125,7 @@
       
        **Search Functionality:**
         * **Keyword Search:** Implement a search bar where users can enter keywords. This should search through course titles, descriptions.
-        * **Category Search:** Allow users to filter courses by categories. 
+        * **Category Search:** Allow users to filter courses by categories.Enable users to filter courses by topics,like Programming,Data Science for more targeted browsing.
         * **Instructor Search:** Provide a search option specifically for instructors. Users can enter an instructor’s name to view all courses taught by them
 
        **Filters:**
