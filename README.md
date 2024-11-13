@@ -65,6 +65,10 @@
         * **Mobile-Optimized Quizzes:** Ensure that quizzes are fully responsive and work seamlessly on mobile devices, including touch controls for selecting answers and navigating 
         between questions.
         * **Mobile Preview:** Provide a mobile preview option so instructors can see how their course will appear to students on different devices.
+     
+        **Differentiated Quizzing**
+        * **Adaptive Quizzing for Different Learning Levels:** Allow instructors to create quizzes for students with different learning levels. For instance, advanced learners can receive 
+        more challenging quizzes, while struggling students can get easier questions to reinforce basic concepts.
 
 
 4.	**Certificates of Completion:**
