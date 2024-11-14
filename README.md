@@ -211,6 +211,9 @@
       **Interactive Playlists**
       * **Custom Playlists:** Allow users to create custom playlists of videos, either from a single course or across multiple courses, to structure their own learning path.
       * **Suggested Playlists:** Offer curated or instructor-created playlists for specific topics, ensuring students follow a recommended progression of content.
+    
+      **Progressive Video Loading for Large Files**
+      * **Progressive Loading:** For larger videos, enable progressive loading where students can begin watching the video while the rest continues to download, ensuring a smooth viewing experience even with limited bandwidth.
 
 
 10.  **Role-Based Access Control:**
