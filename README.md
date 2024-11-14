@@ -528,6 +528,12 @@
 ## Steps to Make a Resource Downloadable
   1. **Create a Controller** 
     - Define a method to handle file download requests, accepting the filename in the URL.
+     # Steps
+       1. **Define Controller**: Create a controller to handle download requests.
+       2. **Download Method**: Add a method to receive the filename as a URL parameter (e.g., `/download/{filename}`). Map it to handle `GET` requests.
+       3. **Validate Input**: Extract and validate the filename to prevent security risks like directory traversal.
+       4. **Retrieve and Respond**: Fetch the file if it exists, and return it as a `Resource` with headers set for downloading.
+
   2. **Validate the File**
     - Check if the requested file exists and is readable on the server.
   3. **Set Response Headers**
@@ -540,4 +546,8 @@
     - When the user clicks the link, the file is streamed to the browser for download.
   7. **Handle Errors**
     - Return an error (e.g., 404) if the file doesn’t exist.
+
+# Creating a File Download Controller
+
+To set up a file download feature, define a controller method that accepts a filename from the URL, validates it, and retrieves the file.
 
