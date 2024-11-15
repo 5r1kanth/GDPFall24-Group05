@@ -548,6 +548,15 @@
   7. **Handle Errors**
     - Return an error (e.g., 404) if the file doesn’t exist.
 
+## Steps to Make Auto grading quiz
+  1. **Set Up Web App**: Use **Servlets/JSP** or **Spring Boot** to handle quiz display and answer submission.
+  2. **Define Quiz**: Store questions and answers in Java objects (hardcoded or from DB).
+  3. **Create UI**: Build a form (HTML/JSP/Thymeleaf) with radio buttons for multiple-choice questions.
+  4. **Process Submission**: Compare user answers with correct ones, calculate the score.
+  5. **Provide Feedback**: Optionally show correct/incorrect answers and total score.
+  6. **Conclusion**: The app grades the quiz and returns the score and feedback.
+
+
 # Creating a File Download Controller
 
 To set up a file download feature, define a controller method that accepts a filename from the URL, validates it, and retrieves the file.
