@@ -70,7 +70,6 @@
         **Differentiated Quizzing**
         * **Adaptive Quizzing for Different Learning Levels:** Allow instructors to create quizzes for students with different learning levels. For instance, advanced learners can receive 
         more challenging quizzes, while struggling students can get easier questions to reinforce basic concepts.
-
         * **Learning Style Adaptation:** Customize quizzes based on learning styles, providing multimedia questions (e.g., video-based questions, audio prompts) to cater to different 
         learners' preferences.
 
