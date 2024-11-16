@@ -215,6 +215,7 @@
     
       **Progressive Video Loading for Large Files**
       * **Progressive Loading:** For larger videos, enable progressive loading where students can begin watching the video while the rest continues to download, ensuring a smooth viewing experience even with limited bandwidth.
+      * **Buffering Control:** Offer buffering settings that allow students to manage how much video is preloaded based on their internet connection.
 
 
 10.  **Role-Based Access Control:**
