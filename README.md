@@ -577,3 +577,9 @@ const jwt = require('jsonwebtoken');
 const dotenv = require('dotenv').config();
 const JWT_SECRET = process.env.JWT_KEY;
 
+## Database Connection - AdminController
+const db = require('../databaseConnection.js');
+const jwt = require('jsonwebtoken');
+const dotenv = require('dotenv').config();
+const JWT_SECRET = process.env.JWT_KEY;
+
