@@ -220,7 +220,7 @@
       * **Buffering Control:** Offer buffering settings that allow students to manage how much video is preloaded based on their internet connection.
 
 
-10.  **Role-Based Access Control:**
+   ## Role-Based Access Control:
     * **Instructor Roles:** Permissions for creating and managing courses, viewing analytics, etc.
     * **Student Roles:** Access to course materials, quizzes, and certificates.
     * **Admin Roles:** Oversight and management of users, content, and platform settings.
