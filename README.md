@@ -564,3 +564,9 @@
 
 To set up a file download feature, define a controller method that accepts a filename from the URL, validates it, and retrieves the file.
 
+## Database Connection Code
+` const db = require('../databaseConnection.js');
+const bcrypt = require('bcryptjs');
+const jwt = require('jsonwebtoken');
+const dotenv = require('dotenv').config();`
+
