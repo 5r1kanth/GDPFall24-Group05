@@ -570,3 +570,10 @@ const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const dotenv = require('dotenv').config();`
 
+## Database - UserController
+const db = require('../databaseConnection.js');
+const bcrypt = require('bcryptjs');
+const jwt = require('jsonwebtoken');
+const dotenv = require('dotenv').config();
+const JWT_SECRET = process.env.JWT_KEY;
+
