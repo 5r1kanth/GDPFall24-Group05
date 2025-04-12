@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<link href='https://unpkg.com/boxicons@2.1.4/dist/boxicons.js' rel='stylesheet'>
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/studentcourses.css">
+	<title>Student - dashboard</title>
+</head>
+<body>
+	
+	<section id="sidebar">
+		<a href="#" class="brand">
+			<i class='bx bxs-smile  bx-lg'></i>
+			<span class="text">E - Learning</span>
+		</a>
+		<ul class="side-menu top">
+			<li class="active">
+				<a href="#">
+					<i class='bx bxs-dashboard bx-sm' ></i>
+					<span class="text">Dashboard</span>
+				</a>
+			</li>
+			<li>
+				<a href="enrolledcourses.html">
+					<i class='bx bxs-book bx-sm'></i>
+					<span class="text">Enrolled Courses</span>
+				</a>
+			</li>
+			
+			<li>
+				<a href="#">
+					<i class='bx bxs-group bx-sm' ></i>
+					<span class="text">Instructors</span>
+				</a>
+			</li>
+		</ul>
+		<ul class="side-menu bottom">
+			<li>
+				<a href="#">
+					<i class='bx bxs-cog bx-sm bx-spin-hover' ></i>
+					<span class="text">Settings</span>
+				</a>
+			</li>
+			<li>
+				<a href="#" class="logout">
+					<i class='bx bx-power-off bx-sm bx-burst-hover' ></i>
+					<span class="text">Logout</span>
+				</a>
+			</li>
+		</ul>
+	</section>
+	
+	
+	<section id="content">
+<nav>
+    <i class='bx bx-menu bx-sm' ></i>
+    <a href="#" class="nav-link">Categories</a>
+    <form action="#">
+        <div class="form-input">
+            <input type="search" id="searchCourse" placeholder="Search Course...">
+            <button type="submit" class="search-btn"><i class='bx bx-search' ></i></button>
+        </div>
+    </form> 
+
+
+    <div class="profile-menu" id="profileMenu">
+        <ul>
+            <li><a href="myprofile.html">My Profile</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Log Out</a></li>
+        </ul>
+    </div>
+</nav>
+
+		<main>
+			<div class="head-title">
+				<div class="left">
+					<h1>Dashboard</h1>
+				</div>
+				
+			</div>
+
+			<ul class="box-info">
+				<li>
+					<i class='bx bxs-book' ></i>
+					<span class="text">
+						<h3 id="courseCount">21</h3>
+						<p>Courses</p>
+					</span>
+				</li>
+				<li>
+					<i class='bx bxs-book' ></i>
+					<span class="text">
+						<h3 id="enrolledCourses">2</h3>
+						<p>Enrolled Courses</p>
+					</span>
+				</li>
+				<li>
+					<i class='bx bxs-group' ></i>
+					<span class="text">
+						<h3 id="instructorCourses">50</h3>
+						<p>Instructors</p>
+					</span>
+				</li>
+			</ul>
+
+			<div class="course-container" id="courses">
+
+				<div class="course-card">
+					<img src="https://assets.toptal.io/images?url=https%3A%2F%2Fbs-uploads.toptal.io%2Fblackfish-uploads%2Fcomponents%2Fskill_page%2F37948%2Flogo%2Foptimized%2Fjava-159dc900b04f34f2269ae8adb9a2a451.png" alt="Course Image" class="course-image">
+					<div class="course-name">Java Programming</div>
+					<div class="course-desc">
+						Learn Java programming from scratch and become a Java expert. This course covers from basic to advanced.
+					</div>
+					<div class="course-category">Category: Programming</div>
+					<div class="course-language">Language: English</div>
+					<div class="course-instructor">Instructor: John Doe</div>
+            		<button class="enroll-button">Enroll Now</button>
+				</div>
+		
+				<div class="course-card">
+					<img src="https://freepngimg.com/thumb/categories/1402.png" alt="Course Image" class="course-image">
+					<div class="course-name">Python for Beginners</div>
+					<div class="course-desc">
+						Start your journey with Python. Learn the basics of Python programming and build your first projects.
+					</div>
+					<div class="course-category">Category: Programming</div>
+					<div class="course-language">Language: English</div>
+					<div class="course-instructor">Instructor: Jane Smith</div>
+					<button class="enroll-button">Enroll Now</button>
+				</div>
+		
+				<div class="course-card">
+					<img src="https://static.vecteezy.com/system/resources/thumbnails/009/298/359/small/3d-illustration-of-web-development-png.png" alt="Course Image" class="course-image">
+					<div class="course-name">Web Development Bootcamp</div>
+					<div class="course-desc">
+						Master HTML, CSS, JavaScript, and more to become a full-stack web developer.
+					</div>
+					<div class="course-category">Category: Web Development</div>
+					<div class="course-language">Language: English</div>
+					<div class="course-instructor">Instructor: Mike Johnson</div>
+					<button class="enroll-button">Enroll Now</button>
+				</div>
+		
+				<div class="course-card">
+					<img src="https://media.licdn.com/dms/image/v2/C510BAQHSc9OTV0JK1Q/company-logo_200_200/company-logo_200_200/0/1630567959858/data_science_online_training_logo?e=2147483647&v=beta&t=cI5GoN-wr2en4eDOPWskYpWq2g-W82a6QSSiWZFkmbE" alt="Course Image" class="course-image">
+					<div class="course-name">Data Science with R</div>
+					<div class="course-desc">
+						Learn data science concepts and tools using R programming language.
+					</div>
+					<div class="course-category">Category: Data Science</div>
+					<div class="course-language">Language: English</div>
+					<div class="course-instructor">Instructor: Sarah Lee</div>
+					<button class="enroll-button">Enroll Now</button>
+				</div>
+		
+				<div class="course-card">
+					<img src="https://static.vecteezy.com/system/resources/thumbnails/019/038/692/small/business-team-creating-artificial-intelligence-machine-learning-and-artificial-intelligence-concept-png.png" alt="Course Image" class="course-image">
+					<div class="course-name">Machine Learning Basics</div>
+					<div class="course-desc">
+						Get started with machine learning concepts and algorithms.
+					</div>
+					<div class="course-category">Category: Machine Learning</div>
+					<div class="course-language">Language: English</div>
+					<div class="course-instructor">Instructor: Alex Brown</div>
+					<button class="enroll-button">Enroll Now</button>
+				</div>
+		
+				<div class="course-card">
+					<img src="https://media.licdn.com/dms/image/v2/C4E03AQHNErqi_99UeA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1618582379926?e=2147483647&v=beta&t=_DmWmHVVpUFkkV82m6KrGhzVSJH7eow1kobvgczskfE" alt="Course Image" class="course-image">
+					<div class="course-name">Android App Development</div>
+					<div class="course-desc">
+						Build Android apps from scratch using Java and Android Studio.
+					</div>
+					<div class="course-category">Category: Mobile Development</div>
+					<div class="course-language">Language: English</div>
+					<div class="course-instructor">Instructor: Emily Davis</div>
+					<button class="enroll-button">Enroll Now</button>
+				</div>
+
+			</div>
+
+		</main>
+	</section>
+	<script src="./js/courses.js"></script>
+</body>
+</html>

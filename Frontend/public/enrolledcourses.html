@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<link href='https://unpkg.com/boxicons@2.1.4/dist/boxicons.js' rel='stylesheet'>
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/studentcourses.css">
+    <link rel="stylesheet" href="./css/courses.css">
+
+	<title>Enrolled Courses</title>
+</head>
+<body>
+	
+	<section id="sidebar">
+		<a href="dashboard.html" class="brand">
+			<i class='bx bxs-smile  bx-lg'></i>
+			<span class="text">E - Learning</span>
+		</a>
+		<ul class="side-menu top">
+			<li>
+				<a href="dashboard.html">
+					<i class='bx bxs-dashboard bx-sm' ></i>
+					<span class="text">Dashboard</span>
+				</a>
+			</li>
+			<li class="active">
+				<a href="enrolledcourses.html">
+					<i class='bx bxs-book bx-sm'></i>
+					<span class="text">Enrolled Courses</span>
+				</a>
+			</li>
+			
+			<li>
+				<a href="#">
+					<i class='bx bxs-group bx-sm' ></i>
+					<span class="text">Instructors</span>
+				</a>
+			</li>
+		</ul>
+		<ul class="side-menu bottom">
+			<li>
+				<a href="#">
+					<i class='bx bxs-cog bx-sm bx-spin-hover' ></i>
+					<span class="text">Settings</span>
+				</a>
+			</li>
+			<li>
+				<a href="#" class="logout">
+					<i class='bx bx-power-off bx-sm bx-burst-hover' ></i>
+					<span class="text">Logout</span>
+				</a>
+			</li>
+		</ul>
+	</section>
+	
+	
+	<section id="content">
+<nav>
+    <i class='bx bx-menu bx-sm' ></i>
+    <a href="#" class="nav-link">Categories</a>
+    <form action="#">
+        <div class="form-input">
+            <input type="search" id="searchCourse" placeholder="Search Course...">
+            <button type="submit" class="search-btn"><i class='bx bx-search' ></i></button>
+        </div>
+    </form> 
+   
+</nav>
+
+		<main>
+			<div class="head-title">
+				<div class="left">
+					<h1>Enrolled Courses</h1>
+				</div>
+				
+			</div>
+
+			<div class="course-container" id="courses">
+				<!-- Course 1 -->
+				<div class="course-card">
+					<img src="https://assets.toptal.io/images?url=https%3A%2F%2Fbs-uploads.toptal.io%2Fblackfish-uploads%2Fcomponents%2Fskill_page%2F37948%2Flogo%2Foptimized%2Fjava-159dc900b04f34f2269ae8adb9a2a451.png" alt="Course Image" class="course-image">
+					<div class="course-name">Java</div>
+					<div class="course-desc">
+						Learn Java programming from scratch and become a Java expert. This course covers from basic to advanced.
+					</div>
+					<div class="course-category">Category: Programming</div>
+					<div class="course-language">Language: English</div>
+					<div class="course-instructor">Instructor: John Doe</div>
+            		<button class="enroll-button">Enroll Now</button>
+				</div>
+		
+				<!-- Course 2 -->
+				<div class="course-card">
+					<img src="https://freepngimg.com/thumb/categories/1402.png" alt="Course Image" class="course-image">
+					<div class="course-name">Python</div>
+					<div class="course-desc">
+						Start your journey with Python. Learn the basics of Python programming and build your first projects.
+					</div>
+					<div class="course-category">Category: Programming</div>
+					<div class="course-language">Language: English</div>
+					<div class="course-instructor">Instructor: Jane Smith</div>
+					<button class="enroll-button">Enroll Now</button>
+				</div>
+			</div>
+			
+			
+
+
+		</main>
+
+	</section>
+
+	<script src="./js/script.js"></script>
+	<script src="./js/enrolledCourses.js"></script>
+</body>
+</html>

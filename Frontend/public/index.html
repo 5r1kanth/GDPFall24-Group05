@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Learning Platform - Login</title>
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+<body>
+    <div class="image-section">
+        <img src="https://media.istockphoto.com/id/499924122/photo/e-learning-concept-with-a-teacher-presenting-online-education-program.jpg?s=612x612&w=0&k=20&c=9zr-SHF6kpOaY4jb3bPXAs2iQum9VxxSPlQsrrqZzng=" alt="Online Learning Image 1">
+    </div>
+
+    <div class="container">
+        <h1>Online Learning Platform</h1>
+        <h2>Sign In!</h2>
+        <form id="loginForm">
+            <div class="form-group">
+                <input type="email" id="email" name="Email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <input type="password" id="password" name="Password" placeholder="Enter your password" required>
+            </div>
+            <div class="role">
+                <label>Select:</label>
+                <input type="radio" id="student" name="role" value="Student" required>
+                <label for="student">Student</label>
+                <input type="radio" id="instructor" name="role" value="Instructor" required>
+                <label for="instructor">Instructor</label>
+                <input type="radio" id="admin" name="role" value="Admin" onclick="window.location.href='/admin'">
+                <label for="admin">Admin</label>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+        <div class="signup-link">
+            <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+            <p>Forgot Password? <a href="forgotPassword.html">Click here</a></p>
+        </div>
+    </div>
+
+   
+    <div class="image-section">
+        <img src="https://media.istockphoto.com/id/1220273081/photo/home-schooling-concept-computer-keyboard-with-a-graduation-hat-and-the-word-education.jpg?s=612x612&w=0&k=20&c=bEa1MAjGpk0-Bm78fiFDBeGW6QOozDhBzuABr8MBsjk=" alt="Online Learning Image 1">
+    </div>
+
+    <script src="./js/login.js"></script>
+</body>
+</html>

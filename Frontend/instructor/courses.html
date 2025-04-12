@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<link href='https://unpkg.com/boxicons@2.1.4/dist/boxicons.js' rel='stylesheet'>
+	<link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/courses.css">
+	<title>Instructor - courses</title>
+	<style>
+		.edit-btn{
+			background-color: #0056b3;
+			padding: 10px 15px;
+			font-size: 1rem;
+			font-weight: bold;
+			color: #fff;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	
+	<section id="sidebar">
+		<a href="#" class="brand">
+			<i class='bx bxs-smile  bx-lg'></i>
+			<span class="text">E - Learning</span>
+		</a>
+		<ul class="side-menu top">
+			<li >
+				<a href="index.html">
+					<i class='bx bxs-dashboard bx-sm' ></i>
+					<span class="text">Dashboard</span>
+				</a>
+			</li>
+			<li class="active">
+				<a href="#">
+					<i class='bx bxs-book bx-sm'></i>
+					<span class="text" onclick="">Create Course</span>
+				</a>
+			</li>
+			
+			
+			<li>
+				<a href="#">
+					<i class='bx bxs-group bx-sm' ></i>
+					<span class="text">Students</span>
+				</a>
+			</li>
+		</ul>
+		<ul class="side-menu bottom">
+			<li>
+				<a href="#">
+					<i class='bx bxs-cog bx-sm bx-spin-hover' ></i>
+					<span class="text">Settings</span>
+				</a>
+			</li>
+			<li>
+				<a href="#" class="logout">
+					<i class='bx bx-power-off bx-sm bx-burst-hover' ></i>
+					<span class="text">Logout</span>
+				</a>
+			</li>
+		</ul>
+	</section>
+	
+	
+	<section id="content">
+<nav>
+    <i class='bx bx-menu bx-sm' ></i>
+    <a href="#" class="nav-link">Categories</a>
+    <!-- <form action="#">
+        <div class="form-input">
+            <input type="search" placeholder="Search...">
+            <button type="submit" class="search-btn"><i class='bx bx-search' ></i></button>
+        </div>
+    </form> -->
+    <input type="checkbox" class="checkbox" id="switch-mode" hidden />
+    <label class="swith-lm" for="switch-mode">
+        <i class="bx bxs-moon"></i>
+        <i class="bx bx-sun"></i>
+        <div class="ball"></div>
+    </label>
+
+
+    <a href="#" class="notification" id="notificationIcon">
+        <i class='bx bxs-bell bx-tada-hover' ></i>
+        <span class="num">0</span>
+    </a>
+    <div class="notification-menu" id="notificationMenu">
+        <ul>
+            <li>New message from John</li>
+        </ul>
+    </div>
+
+    <!-- Profile Menu -->
+    <a href="#" class="profile icon" id="profileIcon">
+        <img src="./user.png" alt="Profile">
+    </a>
+    <div class="profile-menu" id="profileMenu">
+        <ul>
+            <li><a href="myprofile.html">My Profile</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Log Out</a></li>
+        </ul>
+    </div>
+</nav>
+
+		<main>
+            <div class="form-container">
+                <h2>Create a New Course</h2>
+
+                <form id="create-course-form">
+                    <div class="form-group">
+                        <label for="title">Course Title:</label><br />
+                        <input type="text" id="title" name="Title" placeholder="Enter course title" required />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="description">Description:</label><br />
+                        <textarea id="description" name="Description" rows="4" placeholder="Enter course description"></textarea><br />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="category">Category:</label><br />
+                        <input type="text" id="category" name="Category" placeholder="Enter course category" required />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="language">Language:</label><br />
+                        <input type="text" id="language" name="Language" placeholder="Enter course language (e.g., EN)" required />
+                    </div>
+
+                    <button type="submit" id="submit-course-btn">Create Course</button>
+
+                </form>
+
+            </div>
+
+            <div class="table-data">
+				<div class="order">
+					<div class="head">
+						<h3>Courses</h3>
+					</div>
+					<table>
+						<thead>
+							<tr>
+								<th>Title</th>
+                                <th>Category</th>
+								<th>Language</th>
+								<th>Description</th>
+								<th>Action</th>
+							</tr>
+						</thead>
+						<tbody id="tbody">
+							
+						</tbody>
+					</table>
+				</div>
+			</div>	
+		</main>
+
+        
+
+	
+
+	<script src="./js/courses.js"></script>
+</body>
+</html>

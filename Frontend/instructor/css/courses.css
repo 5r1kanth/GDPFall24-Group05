@@ -1,0 +1,99 @@
+
+.form-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    color: #333;
+}
+
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #555;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: #aaa;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+
+#submit-course-btn {
+    display: block;
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submit-course-btn:hover {
+    background-color: #0056b3; 
+}
+
+
+@media (max-width: 768px) {
+    .form-container {
+        padding: 1.5rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        box-shadow: none;
+        border-radius: 0;
+        background-color: #fff; 
+    }
+
+    .form-container h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem; 
+    }
+
+    .form-group input,
+    .form-group textarea {
+        padding: 0.6rem; 
+        font-size: 0.9rem; 
+    }
+
+    #submit-course-btn {
+        padding: 0.7rem; 
+        font-size: 0.9rem; 
+        font-weight:bold
+    }
+
+}

@@ -1,0 +1,135 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+.admin-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #007bff;
+    padding: 15px 20px;
+    color: white;
+}
+
+.admin-nav h1 {
+    margin: 0;
+    font-size: 22px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.logout-button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.section-title{
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+.logout-button:hover {
+    background: darkred;
+}
+
+.admin-dashboard {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.students-table, .instructors-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin: 20px;
+}
+
+.students-table th, .students-table td, .instructors-table th, .instructors-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.students-table th, .instructors-table th {
+    background: #007bff;
+    color: white;
+}
+
+.students-table tr:nth-child(even), .instructors-table tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+.loading-message, .empty-message, .error-message {
+    text-align: center;
+    font-weight: bold;
+    color: #555;
+}
+
+
+.block-unblock-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+.block-unblock-btn.block {
+    background-color: #f44336; 
+    color: white;
+}
+
+.block-unblock-btn.block:hover {
+    background-color: #d32f2f;
+}
+
+
+.block-unblock-btn.unblock {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.block-unblock-btn.unblock:hover {
+    background-color: #388E3C;
+}
+

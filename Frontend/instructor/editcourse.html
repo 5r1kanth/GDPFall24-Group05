@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<link href='https://unpkg.com/boxicons@2.1.4/dist/boxicons.js' rel='stylesheet'>
+	<link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/editcourse.css">
+	<style>
+		.popup-container {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background: rgba(0, 0, 0, 0.5);
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.popup {
+			background: white;
+			padding: 20px;
+			border-radius: 10px;
+			width: 60%;
+			max-height: 80vh;
+			overflow-y: auto;
+			box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+		}
+
+		.close-popup {
+			float: right;
+			cursor: pointer;
+			font-size: 18px;
+			font-weight: bold;
+		}
+
+		table {
+			width: 100%;
+			border-collapse: collapse;
+			margin-top: 10px;
+		}
+
+		th, td {
+			padding: 10px;
+			text-align: left;
+			border-bottom: 1px solid #ddd;
+		}
+
+		th {
+			background-color: #f4f4f4;
+		}
+
+		.save-btn {
+			background-color: #28a745;
+			color: white;
+			border: none;
+			padding: 5px 10px;
+			cursor: pointer;
+		}
+
+		.save-btn:hover {
+			background-color: #218838;
+		}
+
+		.download-link {
+			color: #007bff;
+			text-decoration: none;
+		}
+
+		.download-link:hover {
+			text-decoration: underline;
+		}
+
+	</style>
+	<title>Edit Course</title>
+</head>
+<body>
+	
+	<section id="sidebar">
+		<a href="#" class="brand">
+			<i class='bx bxs-smile  bx-lg'></i>
+			<span class="text">E - Learning</span>
+		</a>
+		<ul class="side-menu top">
+			<li>
+				<a href="index.html">
+					<i class='bx bxs-dashboard bx-sm' ></i>
+					<span class="text">Dashboard</span>
+				</a>
+			</li>
+			<li class="active">
+				<a href="courses.html">
+					<i class='bx bxs-book bx-sm'></i>
+					<span class="text">Create Course</span>
+				</a>
+			</li>
+			
+			<li>
+				<a href="#">
+					<i class='bx bxs-group bx-sm' ></i>
+					<span class="text">Students</span>
+				</a>
+			</li>
+		</ul>
+		<ul class="side-menu bottom">
+			<li>
+				<a href="#">
+					<i class='bx bxs-cog bx-sm bx-spin-hover' ></i>
+					<span class="text">Settings</span>
+				</a>
+			</li>
+			<li>
+				<a href="#" class="logout">
+					<i class='bx bx-power-off bx-sm bx-burst-hover' ></i>
+					<span class="text">Logout</span>
+				</a>
+			</li>
+		</ul>
+	</section>
+	
+	
+	<section id="content">
+<nav>
+    <i class='bx bx-menu bx-sm' ></i>
+    <a href="#" class="nav-link">Categories</a>
+    <!-- <form action="#">
+        <div class="form-input">
+            <input type="search" placeholder="Search...">
+            <button type="submit" class="search-btn"><i class='bx bx-search' ></i></button>
+        </div>
+    </form> -->
+    <input type="checkbox" class="checkbox" id="switch-mode" hidden />
+    <label class="swith-lm" for="switch-mode">
+        <i class="bx bxs-moon"></i>
+        <i class="bx bx-sun"></i>
+        <div class="ball"></div>
+    </label>
+
+
+    <a href="#" class="notification" id="notificationIcon">
+        <i class='bx bxs-bell bx-tada-hover' ></i>
+        <span class="num">0</span>
+    </a>
+    <div class="notification-menu" id="notificationMenu">
+        <ul>
+            <li>New message from John</li>
+        </ul>
+    </div>
+
+    <a href="#" class="profile icon" id="profileIcon">
+        <img src="./user.png" alt="Profile">
+    </a>
+    <div class="profile-menu" id="profileMenu">
+        <ul>
+            <li><a href="myprofile.html">My Profile</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Log Out</a></li>
+        </ul>
+    </div>
+</nav>
+
+		<main>
+			<div class="head-title" style="text-align: center;">
+				<div class="left">
+					<h1>Manage Course Modules</h1>
+				</div>
+				
+			</div>
+
+			 
+             <div class="course-container">
+                <img src="https://android-app-development-documentation.readthedocs.io/en/latest/_images/java.png" alt="Course Image" class="course-image">
+                <div class="course-name">Java Programming Masterclass</div>
+                <div class="course-desc">
+                    Learn Java programming from scratch and become a Java expert. This course covers everything from basic to advanced topics.
+                </div>
+                <div class="course-category">Category: Programming</div>
+                <div class="course-language">Language: English</div>
+                <div class="course-instructor">Instructor: John Doe</div>
+				
+                <button class="add-module-button" onclick="showModuleForm()">Add Module</button>
+				<button class="add-quiz-button" onclick="showQuizForm()">Add Quiz</button>
+				<button class="add-assignment-button" onclick="showAssignmentForm()">Add Assignment</button>
+			    
+            </div>
+        
+            
+            <div class="module-form" id="moduleForm">
+                <input type="text" id="moduleTitle" placeholder="Module Title">
+                <textarea id="moduleDesc" placeholder="Enter Description"></textarea>
+					<button onclick="addModule()">Add</button>
+					<button onclick="undoModule()">Undo</button> 
+            </div>
+			<div class="module-form" id="quizForm">
+                <input type="text" id="quizTitle" placeholder="Quiz Title">
+                <textarea id="quizDesc" placeholder="Enter Description"></textarea>
+				<input type="number" id="totalPoints" placeholder="Total Points">
+                <button class="btn" onclick="addQuiz()">Add</button>
+				<button class="btn"  onclick="undoQuiz()">Undo</button>
+            </div>
+			<div class="module-form" id="assignmentForm">
+                <input type="text" id="assignmentTitle" placeholder="Assignment Title">
+                <textarea id="assignmentDesc" placeholder="Enter Description"></textarea>
+				<input type="date" id="assignmentSubmitDate" required />
+                <button class="btn" onclick="addAssignment()">Add</button>
+				<button class="btn"  onclick="undoAssignment()">Undo</button>
+            </div>
+            <h1 style="text-align: center; font-size: 36px; margin: 20px 0px 0px 0px;">Modules</h1>
+            <div class="module-container" id="modules">
+
+				<p>Empty modules</p>
+            </div>
+
+			<h1 style="text-align: center; font-size: 36px; margin: 20px 0px 0px 0px;">Quizes</h1>
+            <div class="module-container" id="quizzes">
+
+				<p>Empty quiz</p>
+		
+            </div>
+
+			<h1 style="text-align: center; font-size: 36px; margin: 20px 0px 0px 0px;">Assignments</h1>
+            <div class="module-container" id="assignments">			
+		
+            </div>
+
+		</main>
+
+	</section>
+
+	
+
+	<script src="./js/script.js"></script>
+    <script src="./js/editcourse.js"></script>
+</body>
+</html>

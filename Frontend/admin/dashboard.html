@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="./css/admin.css">
+</head>
+<body>
+
+    <nav class="admin-nav">
+        <h1>Admin Dashboard</h1>
+        <div class="nav-links">
+            <a href="#">Students</a>
+            <a href="instructors.html">Instructors</a>
+            <button class="logout-button" onclick="logout()">Logout</button>
+        </div>
+    </nav>
+
+        <h3 class="section-title">Students</h3>
+        <div class="table-container">
+            <table class="students-table">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Enrolled Courses</th>
+                        <th>Modify</th>
+                    </tr>
+                </thead>
+                <tbody id="students-table-body">
+                    <tr><td colspan="4" class="loading-message">Loading students...</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+
+    <script src="./js/students.js"></script>
+</body>
+</html>

@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #bbbbbb;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.image-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-section img {
+    width: 300px;
+    height: 523px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signup-container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 45px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    height: 73%;
+}
+
+.signup-container h1 {
+    color: #007bff;
+    margin-bottom: 15px;
+    margin-top: -25px;
+}
+
+.profile-upload {
+    margin-bottom: 10px;
+}
+
+.profile-upload label {
+    cursor: pointer;
+}
+
+.profile-upload img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #007bff;
+}
+
+.profile-upload input[type="file"] {
+    display: none;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.row input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.row input:hover, .row input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.role {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.role label {
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #007bff; 
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #0056b3; 
+    transition: background-color 0.3s ease;
+}
+
+.signup-link {
+    margin-top: 20px;
+}
+
+.signup-link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
+
+input[type="radio"]:checked {
+    accent-color: #007bff;  /* This makes the selected radio button blue */
+}
+
+input[type="radio"] {
+    accent-color: #007bff;
+}
+
+/* Keeps the text color of labels unchanged */
+label {
+    color: #000;  /* Black text for labels */
+}

@@ -1,0 +1,38 @@
+.progress-circle {
+    width: 220px;
+    height: 220px;
+    margin-top: 100px;
+  }
+  
+  svg {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .bg {
+    fill: none;
+    stroke: #eee;
+    stroke-width: 3.8;
+    
+  }
+  
+  .progress {
+    fill: none;
+    stroke: #00b894;
+    stroke-width: 3.8;
+    stroke-linecap: round;
+    transition: stroke-dasharray 0.6s ease;
+   
+  }
+  
+  .percentage {
+    fill: #2d3436;
+    font-size: 0.5em;
+    text-anchor: middle;
+  }
+  #certificateCanvas {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+  }
+  

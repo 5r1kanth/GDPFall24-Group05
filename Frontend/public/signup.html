@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Learning Platform - Sign Up</title>
+    <link rel="stylesheet" href="./css/signup.css">
+</head>
+<body>
+    <div class="image-section">
+        <img src="https://media.istockphoto.com/id/499924122/photo/e-learning-concept-with-a-teacher-presenting-online-education-program.jpg?s=612x612&w=0&k=20&c=9zr-SHF6kpOaY4jb3bPXAs2iQum9VxxSPlQsrrqZzng=" alt="Online Learning Image 1">
+    </div>
+
+    <div class="signup-container">
+        <h1>Online Learning Platform</h1>
+        <h2>Sign Up!</h2>
+        
+        <div class="profile-upload">
+            <label for="profile-pic">
+                <img src="https://cdn-icons-png.flaticon.com/512/847/847969.png" id="profile-preview" alt="Profile Image">
+                <input type="file" id="profile-pic" accept="image/*" onchange="previewImage(event)">
+            </label>
+        </div>
+
+        <form id="signupForm">
+            <div class="row">
+                <input type="text" id="firstName" name="firstName" placeholder="First Name" required>
+                <input type="text" id="lastName" name="lastName" placeholder="Last Name" required>
+            </div>
+            <div class="row">
+                <input type="email" id="email" name="email" placeholder="Email" required>
+                <input type="text" id="bio" name="Bio" placeholder="Bio" required>
+            </div>
+            <div class="row">
+                <input type="password" id="password" name="password" placeholder="Create Password" required>
+                <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm Password" required>
+            </div>
+            <div class="role">
+                <label>Select:</label>
+                <input type="radio" id="student" name="role" value="Student" required>
+                <label for="student">Student</label>
+                <input type="radio" id="instructor" name="role" value="Instructor" required>
+                <label for="instructor">Instructor</label>
+            </div>
+            <button type="submit">Sign Up</button>
+        </form>
+        
+        <div class="signup-link">
+            <p>Already have an account? <a href="index.html">Login</a></p>
+        </div>
+    </div>
+
+    <div class="image-section">
+        <img src="https://media.istockphoto.com/id/1220273081/photo/home-schooling-concept-computer-keyboard-with-a-graduation-hat-and-the-word-education.jpg?s=612x612&w=0&k=20&c=bEa1MAjGpk0-Bm78fiFDBeGW6QOozDhBzuABr8MBsjk=" alt="Online Learning Image 2">
+    </div>
+
+    <script src="./js/signup.js"></script>
+</body>
+</html>

@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<link href='https://unpkg.com/boxicons@2.1.4/dist/boxicons.js' rel='stylesheet'>
+	
+	<style>
+		
+		.course-wrapper {
+		display: flex;
+		flex-direction: row;
+		align-items: flex-start;
+		gap: 30px;
+		padding: 20px;
+		border: 1px solid #ddd;
+		border-radius: 16px;
+		background-color: #fff;
+		box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+		max-width: 900px;
+		margin: 30px auto;
+		}
+
+
+		.course-container {
+		max-width: 600px;
+		}
+
+		.course-image {
+		width: 100%;
+		max-width: 200px;
+		border-radius: 12px;
+		margin-bottom: 12px;
+		}
+
+		.course-name {
+		font-size: 1.5em;
+		font-weight: bold;
+		margin-bottom: 8px;
+		}
+
+		.course-desc {
+		font-size: 1em;
+		color: #444;
+		margin-bottom: 12px;
+		line-height: 1.4;
+		}
+
+		.course-category,
+		.course-language,
+		.course-instructor {
+		font-size: 0.95em;
+		color: #666;
+		margin-bottom: 6px;
+		}
+
+	
+		.progress-circle {
+		width: 120px;
+		height: 120px;
+		}
+
+		svg {
+		width: 100%;
+		height: 100%;
+		}
+
+		.bg {
+		fill: none;
+		stroke: #eee;
+		stroke-width: 3.8;
+		}
+
+		.progress {
+		fill: none;
+		stroke: #00b894;
+		stroke-width: 3.8;
+		stroke-linecap: round;
+		transition: stroke-dasharray 0.6s ease;
+		}
+
+		.percentage {
+		fill: #2d3436;
+		font-size: 0.5em;
+		text-anchor: middle;
+		}
+
+		.modal {
+			margin-left: 50px;
+			display: none;
+			position: fixed;
+			z-index: 999;
+			padding-top: 50px;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			overflow: auto;
+			background-color: rgba(0,0,0,0.7);
+		}
+
+			.modal-content {
+			background-color: #fefefe;
+			margin: auto;
+			padding: 20px;
+			border-radius: 10px;
+			width: 80%;
+			text-align: center;
+			position: relative;
+			}
+
+			canvas {
+			width: 100%;
+			height: auto;
+			max-width: 100%;
+			border: 1px solid #ccc;
+			border-radius: 8px;
+			}
+
+			.close {
+			position: absolute;
+			top: 10px;
+			right: 20px;
+			color: #aaa;
+			font-size: 28px;
+			font-weight: bold;
+			cursor: pointer;
+			}
+
+			.close:hover {
+			color: #000;
+			}
+
+
+	</style>
+	<link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/editcourse.css">
+	<link rel="stylesheet" href="./css/progress.css">
+	<title>Edit Course</title>
+</head>
+<body>
+	
+	<section id="sidebar">
+		<a href="dashboard.html" class="brand">
+			<i class='bx bxs-smile  bx-lg'></i>
+			<span class="text">E - Learning</span>
+		</a>
+		<ul class="side-menu top">
+			<li>
+				<a href="dashboard.html">
+					<i class='bx bxs-dashboard bx-sm' ></i>
+					<span class="text">Dashboard</span>
+				</a>
+			</li>
+			<li class="active">
+				<a href="enrolledcourses.html">
+					<i class='bx bxs-book bx-sm'></i>
+					<span class="text">Enrolled Courses</span>
+				</a>
+			</li>
+			
+			<li>
+				<a href="#">
+					<i class='bx bxs-group bx-sm' ></i>
+					<span class="text">Instructors</span>
+				</a>
+			</li>
+		</ul>
+		<ul class="side-menu bottom">
+			<li>
+				<a href="#">
+					<i class='bx bxs-cog bx-sm bx-spin-hover' ></i>
+					<span class="text">Settings</span>
+				</a>
+			</li>
+			<li>
+				<a href="#" class="logout">
+					<i class='bx bx-power-off bx-sm bx-burst-hover' ></i>
+					<span class="text">Logout</span>
+				</a>
+			</li>
+		</ul>
+	</section>
+	
+	
+	<section id="content">
+<nav>
+    <i class='bx bx-menu bx-sm' ></i>
+    <a href="#" class="nav-link">Categories</a>
+    <!-- <form action="#">
+        <div class="form-input">
+            <input type="search" placeholder="Search...">
+            <button type="submit" class="search-btn"><i class='bx bx-search' ></i></button>
+        </div>
+    </form> -->
+    <input type="checkbox" class="checkbox" id="switch-mode" hidden />
+    <label class="swith-lm" for="switch-mode">
+        <i class="bx bxs-moon"></i>
+        <i class="bx bx-sun"></i>
+        <div class="ball"></div>
+    </label>
+
+
+    <a href="#" class="notification" id="notificationIcon">
+        <i class='bx bxs-bell bx-tada-hover' ></i>
+        <span class="num">0</span>
+    </a>
+    <div class="notification-menu" id="notificationMenu">
+        <ul>
+            <li>New message from John</li>
+        </ul>
+    </div>
+
+    <a href="#" class="profile icon" id="profileIcon">
+        <img src="./user.png" alt="Profile">
+    </a>
+    <div class="profile-menu" id="profileMenu">
+        <ul>
+            <li><a href="myprofile.html">My Profile</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Log Out</a></li>
+        </ul>
+    </div>
+</nav>
+
+		<main>
+			<div class="head-title" style="text-align: center;">
+				<div class="left">
+					<h1>Manage Course Modules</h1>
+				</div>
+				
+			</div>
+
+			 <div class="course-wrapper" >
+				<div class="course-container">
+					<img src="https://android-app-development-documentation.readthedocs.io/en/latest/_images/java.png" alt="Course Image" class="course-image">
+					<div class="course-name">Java Programming Masterclass</div>
+					<div class="course-desc">
+						Learn Java programming from scratch and become a Java expert. This course covers everything from basic to advanced topics.
+					</div>
+					<div class="course-category">Category: Programming</div>
+					<div class="course-language">Language: English</div>
+					<div class="course-instructor">Instructor: John Doe</div>
+					
+				</div>
+	
+				<div id="progress-container" class="progress-circle">
+					<h2 style="margin-bottom: 30px;">Course Progress</h2>
+					<svg viewBox="0 0 36 36">
+					<path
+						class="bg"
+						d="M18 2.0845
+						a 15.9155 15.9155 0 0 1 0 31.831
+						a 15.9155 15.9155 0 0 1 0 -31.831"
+					/>
+					<path
+						class="progress"
+						stroke-dasharray="0, 100"
+						d="M18 2.0845
+						a 15.9155 15.9155 0 0 1 0 31.831
+						a 15.9155 15.9155 0 0 1 0 -31.831"
+					/>
+					<text x="18" y="20.35" class="percentage">0%</text>
+					</svg>
+					<button style="margin: 20px 0px 0px 40px; display: none;" id="certificate" onclick="generate()">Generate Certificate</button>
+				</div> 
+			 </div>
+            
+			 <!-- Certificate Modal -->
+			<div id="certificateModal" class="modal">
+				<div class="modal-content">
+				<span class="close" onclick="closeModal()">&times;</span>
+				<canvas id="certificateCanvas" width="1200" height="850"></canvas>
+				<button onclick="downloadCertificate()">Download Certificate</button>
+				</div>
+			</div>
+        
+        
+            <h1 style="text-align: center; font-size: 36px; margin: 20px 0px 0px 0px;">Modules</h1>
+            <div class="module-container" id="modules">
+
+                <p>Empty modules</p>
+            </div>
+
+			<h1 style="text-align: center; font-size: 36px; margin: 20px 0px 0px 0px;">Quizes</h1>
+            <div class="module-container" id="quizzes">
+
+				<p>Empty quiz</p>
+		
+            </div>
+
+            <h1 style="text-align: center; font-size: 36px; margin: 20px 0px 0px 0px;">Assignments</h1>
+            <div class="module-container" id="assignments">
+			
+		
+            </div>
+		</main>
+
+	</section>
+
+	<script>
+		 function generate(){
+        generateCertificate(localStorage.getItem('username'), Title)
+        console.log(Title)
+    }
+
+    function openModal() {
+        document.getElementById("certificateModal").style.display = "block";
+    }
+      
+    function closeModal() {
+        document.getElementById("certificateModal").style.display = "none";
+    }
+      
+    function downloadCertificate() {
+        const canvas = document.getElementById("certificateCanvas");
+        const image = canvas.toDataURL("image/png");
+        const link = document.createElement('a');
+        link.download = "certificate.png";
+        link.href = image;
+        link.click();
+    }
+	</script>
+	<script src="./js/script.js"></script>
+    <script src="./js/course.js"></script>
+	<script src="./js/certificate.js"></script>
+</body>
+</html>

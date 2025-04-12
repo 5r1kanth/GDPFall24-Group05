@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .quiz-container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 50%;
+            text-align: left;
+        }
+        .question {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        .options label {
+            display: block;
+            background: #f0f0f0;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .options label:hover {
+            background: #ddd;
+        }
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        button {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="quiz-container">
+        <div class="question" id="question-text">Loading...</div>
+        <div class="options" id="options-container"></div>
+        <div class="navigation">
+            <button id="prev-button" onclick="prevQuestion()" class="hidden">Previous</button>
+            <button id="next-button" onclick="nextQuestion()">Next</button>
+            <button id="submit-button" onclick="submitQuiz()" class="hidden">Submit</button>
+        </div>
+    </div>
+
+    <script>
+        let quizId = 1;
+        let questions = [];
+        let currentQuestionIndex = 0;
+        let responses = {};
+    
+        document.addEventListener("DOMContentLoaded", async () => {
+            quizId = getQuizIdFromURL();
+            if (!quizId) {
+                alert("Quiz ID is missing!");
+                return;
+            }
+            await fetchQuizQuestions(quizId);
+        });
+    
+        function getQuizIdFromURL() {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get("quizId");
+        }
+    
+        async function fetchQuizQuestions(quizId) {
+            try {
+                const response = await fetch(`/user/quiz/questions/${quizId}`);
+                if (!response.ok) throw new Error("Failed to fetch quiz questions");
+                questions = await response.json();
+                questions.sort((a, b) => a.Order - b.Order);
+                showQuestion(currentQuestionIndex);
+            } catch (error) {
+                console.error("Error fetching quiz questions:", error);
+            }
+        }
+    
+        function showQuestion(index) {
+            if (index < 0 || index >= questions.length) return;
+            let question = questions[index];
+            document.getElementById("question-text").innerHTML = `${index + 1}. ${question.QuestionText}`;
+            document.getElementById("options-container").innerHTML =
+                question.QuestionType === "Multiple Choice"
+                    ? createMultipleChoiceOptions(question.Options, question.QuestionID)
+                    : createTrueFalseOptions(question.QuestionID);
+            updateNavigationButtons();
+        }
+    
+        function createMultipleChoiceOptions(options, questionId) {
+            return options.map(option => `
+                <label>
+                    <input type="radio" name="answer-${questionId}" value="${option}" onclick="saveResponse(${questionId}, '${option}')"> ${option}
+                </label><br>
+            `).join("");
+        }
+    
+        function createTrueFalseOptions(questionId) {
+            return `
+                <label><input type="radio" name="answer-${questionId}" value="True" onclick="saveResponse(${questionId}, 'True')"> True</label><br>
+                <label><input type="radio" name="answer-${questionId}" value="False" onclick="saveResponse(${questionId}, 'False')"> False</label><br>
+            `;
+        }
+    
+        function saveResponse(questionId, answer) {
+            responses[questionId] = answer;
+        }
+    
+        function nextQuestion() {
+            if (currentQuestionIndex < questions.length - 1) {
+                currentQuestionIndex++;
+                showQuestion(currentQuestionIndex);
+            }
+        }
+    
+        function prevQuestion() {
+            if (currentQuestionIndex > 0) {
+                currentQuestionIndex--;
+                showQuestion(currentQuestionIndex);
+            }
+        }
+    
+        function updateNavigationButtons() {
+            document.getElementById("prev-button").classList.toggle("hidden", currentQuestionIndex === 0);
+            document.getElementById("next-button").classList.toggle("hidden", currentQuestionIndex === questions.length - 1);
+            document.getElementById("submit-button").classList.toggle("hidden", currentQuestionIndex !== questions.length - 1);
+        }
+    
+        async function submitQuiz() {
+            try {
+                const response = await fetch('/user/quiz/submit', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ quizId, responses, userId: localStorage.getItem('UserID') })
+                });
+                const data = await response.json();
+                alert(data.message || "Quiz submitted successfully!");
+                window.close();
+            } catch (error) {
+                console.error("Error submitting quiz:", error);
+            }
+        }
+    </script>
+</body>
+</html>

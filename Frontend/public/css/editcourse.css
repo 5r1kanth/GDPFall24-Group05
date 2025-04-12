@@ -1,0 +1,244 @@
+.course-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 500px;
+    margin: 0 150px;
+    text-align: left;
+}
+.course-image {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+}
+.course-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 15px 0 10px;
+}
+.course-desc {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+}
+.course-category, .course-language, .course-instructor {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.btn{
+    background-color: #007bff;
+}
+.add-module-button, .add-quiz-button, .btn {
+    background-color: #28a745;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.add-module-button:hover, .add-quiz-button:hover {
+    background-color: #218838;
+}
+.module-form {
+    display: none;
+    background-color: #f1f1f1;
+    padding: 35px;
+    border-radius: 13px;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 50%;
+}
+.module-form input, .module-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 14px;
+    outline: none;
+}
+.module-form button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 30%
+}
+.module-form button:hover {
+    background-color: #0056b3;
+}
+.module-form input:hover, .module-form textarea:hover, .module-form input:focus, .module-form textarea:focus{
+    border-color: #007bff;
+}
+.module-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.module-table th, .module-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+.module-table th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+.module-table td {
+    background-color: #ffffff;
+}
+ button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ .edit {
+    background-color: #ffc107;
+    color: #000;
+}
+ .delete {
+    background-color: #dc3545;
+    color: #fff;
+}
+ .add-lecture {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.module-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 50px;
+    margin: 0 auto;
+    border-radius: 20px;
+	background: #F9F9F9;
+	padding: 24px;
+	overflow-x: auto;
+}
+.module-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+    width: 100%;
+}
+.module-image {
+    width: 100%;
+    border-radius: 8px;
+}
+.module-name {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 15px 0 10px;
+}
+.module-desc {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+}
+.module-category, .module-language, .module-instructor {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.module-button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.enroll-button:hover {
+    background-color: #0056b3;
+}
+
+.lectures {
+    margin-left: 20px;
+    border-left: 2px solid #ccc;
+    padding-left: 10px;
+    display: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.lecture-item {
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin-top: 10px;
+}
+.lecture-title, .question-title, .assignment-title{
+    display: inline-block;
+}
+.toggle-lecture, .toggle-question, .toggle-assignment {
+    cursor: pointer;
+    font-size: 18px;
+    color: #007bff;
+    margin-right: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.lecture-content, .question-content, .assignment-content {
+    display: none;
+    margin-top: 5px;
+    padding: 10px;
+    background: #eef2ff;
+    border-radius: 5px;
+}
+
+.lecture-content button, .question-content button, .assignment-content button {
+    display: block;
+    width: auto;
+    margin-top: 10px;
+    background: #007bff;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+.lecture-content button:hover, .question-content button:hover, .assignment-content button:hover {
+    background: #0056b3;
+}
+
+
+.lecture-input, .lecture-yt, .question-input, .question-type, .option, .correct-answer, .assignment-input, .assignment-type{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 14px;
+    outline: none;
+}
+.lecture-file, .assignment-file{
+    width: 100%;
+    padding: 2px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 14px;
+    outline: none;
+}
+
+.actions{
+    display: flex;
+    flex-direction: row;
+}
